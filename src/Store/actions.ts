@@ -15,7 +15,7 @@ export const setSearch = (search: string) => ({
     payload: search,
 });
 
-export const setSortBy = (sortBy: 'bananas' | 'name') => ({
+export const setSortBy = (sortBy: 'bananas' | 'name' | 'rank') => ({
     type: SET_SORT_BY,
     payload: sortBy,
 });

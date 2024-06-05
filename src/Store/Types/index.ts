@@ -1,4 +1,5 @@
 export interface User {
+    rank: any;
     bananas: number;
     lastDayPlayed: string;
     longestStreak: number;

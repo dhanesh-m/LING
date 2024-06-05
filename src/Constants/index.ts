@@ -1,3 +1,3 @@
 export const ErrorMessages = {
-    userNotExist: 'Enter a valid e-mail address'
+    userNotExist: 'This user name does not exist! Please specify an existing user name!'
 }

@@ -10,10 +10,6 @@ export const glueStackConfig = createConfig({
 			theme: {
 				...config.components.Button.theme,
 				borderRadius: '$lg',
-				// _text: {
-				// 	// ...config.components.Button.theme._text,
-				// 	fontWeight: '$normal',
-				// },
 			},
 		},
 		Text: {
@@ -43,11 +39,6 @@ export const glueStackConfig = createConfig({
 			primary800: '#7845de',
 			primary900: '#6e38d9',
 			primary950: '#5f2dc2',
-		},
-		fonts: {
-			heading: 'Lexend Deca',
-			body: 'Lexend Deca',
-			mono: 'Lexend Deca',
 		},
 	},
 });

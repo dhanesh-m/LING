@@ -1,4 +1,5 @@
 interface UserData {
+  rank: number;
   bananas: number;
   lastDayPlayed: string;
   longestStreak: number;
@@ -12,8 +13,9 @@ type DataObj = {
   [key: string]: UserData;
 };
 
-export const dataObj: DataObj = {
+export const userData: DataObj = {
   '00D1LA8puAa1GINkVpfgC1TmO0m1': {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-11-22',
     longestStreak: 1,
@@ -23,6 +25,7 @@ export const dataObj: DataObj = {
     uid: '00D1LA8puAa1GINkVpfgC1TmO0m1',
   },
   x8RNvUgv5pZqDVatEXb2aYgSflq1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -32,6 +35,7 @@ export const dataObj: DataObj = {
     uid: 'x8RNvUgv5pZqDVatEXb2aYgSflq1',
   },
   ylL3XqPOlycHiPBuf1uXHlgZzEr2: {
+    rank:0,
     bananas: 150,
     lastDayPlayed: '2018-10-17',
     longestStreak: 1,
@@ -41,6 +45,7 @@ export const dataObj: DataObj = {
     uid: 'ylL3XqPOlycHiPBuf1uXHlgZzEr2',
   },
   ylsPzJdfKggHuBVcqHVYxzVRdtJ2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -50,6 +55,7 @@ export const dataObj: DataObj = {
     uid: 'ylsPzJdfKggHuBVcqHVYxzVRdtJ2',
   },
   ylwtBuIr70fEIxcCE80fSRRo7np2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -59,6 +65,7 @@ export const dataObj: DataObj = {
     uid: 'ylwtBuIr70fEIxcCE80fSRRo7np2',
   },
   ymAf3Zs3MCe0zwjQnATm2B9LmeY2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -68,6 +75,7 @@ export const dataObj: DataObj = {
     uid: 'ymAf3Zs3MCe0zwjQnATm2B9LmeY2',
   },
   ymXlQBolGjc664PfpwjeMG3slbD3: {
+    rank:0,
     bananas: 1100,
     lastDayPlayed: '2018-08-04',
     longestStreak: 1,
@@ -77,6 +85,7 @@ export const dataObj: DataObj = {
     uid: 'ymXlQBolGjc664PfpwjeMG3slbD3',
   },
   ymddj0GvbKSeNTC3zDa6eYqjZnY2: {
+    rank:0,
     bananas: 750,
     lastDayPlayed: '2018-12-10',
     longestStreak: 2,
@@ -86,6 +95,7 @@ export const dataObj: DataObj = {
     uid: 'ymddj0GvbKSeNTC3zDa6eYqjZnY2',
   },
   ymi5YolrBOTmzPJs1ZEvAxWVzx92: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-06-17',
     longestStreak: 1,
@@ -95,6 +105,7 @@ export const dataObj: DataObj = {
     uid: 'ymi5YolrBOTmzPJs1ZEvAxWVzx92',
   },
   ymonOSLRONZxm99JFaPcbUoZSOF3: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -104,6 +115,7 @@ export const dataObj: DataObj = {
     uid: 'ymonOSLRONZxm99JFaPcbUoZSOF3',
   },
   yn0kIHr19ub7hgxfrxIHab0MRS73: {
+    rank:0,
     bananas: 2150,
     lastDayPlayed: '2019-01-24',
     longestStreak: 1,
@@ -113,6 +125,7 @@ export const dataObj: DataObj = {
     uid: 'yn0kIHr19ub7hgxfrxIHab0MRS73',
   },
   yn8Jn7LPoCcL3e6KZtGx3RmzDB63: {
+    rank:0,
     bananas: 900,
     lastDayPlayed: '2018-05-09',
     longestStreak: 2,
@@ -122,6 +135,7 @@ export const dataObj: DataObj = {
     uid: 'yn8Jn7LPoCcL3e6KZtGx3RmzDB63',
   },
   ynGq0tckUyTBHFiB0c6v2Y2NxGH3: {
+    rank:0,
     bananas: 2150,
     lastDayPlayed: '2018-10-11',
     longestStreak: 2,
@@ -131,6 +145,7 @@ export const dataObj: DataObj = {
     uid: 'ynGq0tckUyTBHFiB0c6v2Y2NxGH3',
   },
   ynXlyqthAfTrFbK8M4iQFFZTkYp2: {
+    rank:0,
     bananas: 550,
     lastDayPlayed: '2018-12-05',
     longestStreak: 1,
@@ -140,6 +155,7 @@ export const dataObj: DataObj = {
     uid: 'ynXlyqthAfTrFbK8M4iQFFZTkYp2',
   },
   yniH9BMgoUYDFV3oNzBoKLq9BYj1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -149,6 +165,7 @@ export const dataObj: DataObj = {
     uid: 'yniH9BMgoUYDFV3oNzBoKLq9BYj1',
   },
   yniTP0KsvfRDuw8weRArLiUDLR13: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-08-13',
     longestStreak: 1,
@@ -158,6 +175,7 @@ export const dataObj: DataObj = {
     uid: 'yniTP0KsvfRDuw8weRArLiUDLR13',
   },
   ynp3NHnzBBYGf0WWiOdMDug0bXZ2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -167,6 +185,7 @@ export const dataObj: DataObj = {
     uid: 'ynp3NHnzBBYGf0WWiOdMDug0bXZ2',
   },
   yo4XFheX0DRGXLWsDMwUwvPUvN23: {
+    rank:0,
     bananas: 2100,
     lastDayPlayed: '2018-05-12',
     longestStreak: 2,
@@ -176,6 +195,7 @@ export const dataObj: DataObj = {
     uid: 'yo4XFheX0DRGXLWsDMwUwvPUvN23',
   },
   yo5Sj0tkgFeTAmfU72ankN9rMwO2: {
+    rank:0,
     bananas: 150,
     lastDayPlayed: '2019-02-06',
     longestStreak: 1,
@@ -185,6 +205,7 @@ export const dataObj: DataObj = {
     uid: 'yo5Sj0tkgFeTAmfU72ankN9rMwO2',
   },
   yoDHUejMeshN1bOw9Bq671vMaph2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -194,6 +215,7 @@ export const dataObj: DataObj = {
     uid: 'yoDHUejMeshN1bOw9Bq671vMaph2',
   },
   yoGaR3ZFBhbzquGaxpj0kYSWZ3E3: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -203,6 +225,7 @@ export const dataObj: DataObj = {
     uid: 'yoGaR3ZFBhbzquGaxpj0kYSWZ3E3',
   },
   yoSIZR2qFWPHCxezohG6A6j1Z0A3: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -212,6 +235,7 @@ export const dataObj: DataObj = {
     uid: 'yoSIZR2qFWPHCxezohG6A6j1Z0A3',
   },
   yoSPvRbIpNcrIC7UyvRvWjvaA4R2: {
+    rank:0,
     bananas: 1700,
     lastDayPlayed: '2018-12-06',
     longestStreak: 1,
@@ -221,6 +245,7 @@ export const dataObj: DataObj = {
     uid: 'yoSPvRbIpNcrIC7UyvRvWjvaA4R2',
   },
   yoSiLIddb4Qf37ojOkXBA9b6tsh1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -230,6 +255,7 @@ export const dataObj: DataObj = {
     uid: 'yoSiLIddb4Qf37ojOkXBA9b6tsh1',
   },
   yoXSUlTGm0hSj484dC64eN7QtWK2: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-04-23',
     longestStreak: 1,
@@ -239,6 +265,7 @@ export const dataObj: DataObj = {
     uid: 'yoXSUlTGm0hSj484dC64eN7QtWK2',
   },
   yobWfrtjiYawVW8raWI8zq8ek9q2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -248,6 +275,7 @@ export const dataObj: DataObj = {
     uid: 'yobWfrtjiYawVW8raWI8zq8ek9q2',
   },
   yoeI8raUVZOK32ecbsoICmX9Q2O2: {
+    rank:0,
     bananas: 800,
     lastDayPlayed: '2019-01-23',
     longestStreak: 1,
@@ -257,6 +285,7 @@ export const dataObj: DataObj = {
     uid: 'yoeI8raUVZOK32ecbsoICmX9Q2O2',
   },
   yonlA2cp08Zx0DPZlxHrtxJT2I02: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -266,6 +295,7 @@ export const dataObj: DataObj = {
     uid: 'yonlA2cp08Zx0DPZlxHrtxJT2I02',
   },
   yp88Mrrwr5dajzEqeG08O6GY7om1: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-07-16',
     longestStreak: 1,
@@ -275,6 +305,7 @@ export const dataObj: DataObj = {
     uid: 'yp88Mrrwr5dajzEqeG08O6GY7om1',
   },
   ypGsurcbdlZGI0bIncgWCWKRVa13: {
+    rank:0,
     bananas: 150,
     lastDayPlayed: '2018-08-30',
     longestStreak: 1,
@@ -284,6 +315,7 @@ export const dataObj: DataObj = {
     uid: 'ypGsurcbdlZGI0bIncgWCWKRVa13',
   },
   ypgEDWRRv6Y35QCgrL9M3orKdKv2: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2019-01-05',
     longestStreak: 2,
@@ -293,6 +325,7 @@ export const dataObj: DataObj = {
     uid: 'ypgEDWRRv6Y35QCgrL9M3orKdKv2',
   },
   yq6ktPMebigBV1yx7npyjnXDJIr2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -302,6 +335,7 @@ export const dataObj: DataObj = {
     uid: 'yq6ktPMebigBV1yx7npyjnXDJIr2',
   },
   yq94enBRYydV8n6W9qHxV0F63HD3: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -311,6 +345,7 @@ export const dataObj: DataObj = {
     uid: 'yq94enBRYydV8n6W9qHxV0F63HD3',
   },
   yr375I1LQbfwtVmsO1GNVZgjOvq1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -320,6 +355,7 @@ export const dataObj: DataObj = {
     uid: 'yr375I1LQbfwtVmsO1GNVZgjOvq1',
   },
   yrCPeLQLj5fZE4gqvO73z96puy82: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -329,6 +365,7 @@ export const dataObj: DataObj = {
     uid: 'yrCPeLQLj5fZE4gqvO73z96puy82',
   },
   yrRdJiWXAASYiUDsGCEfvbiEqbh2: {
+    rank:0,
     bananas: 5250,
     lastDayPlayed: '2018-08-23',
     longestStreak: 4,
@@ -338,6 +375,7 @@ export const dataObj: DataObj = {
     uid: 'yrRdJiWXAASYiUDsGCEfvbiEqbh2',
   },
   yrSPbY41KmTmYft50H71utHRNYM2: {
+    rank:0,
     bananas: 800,
     lastDayPlayed: '2018-11-18',
     longestStreak: 3,
@@ -347,6 +385,7 @@ export const dataObj: DataObj = {
     uid: 'yrSPbY41KmTmYft50H71utHRNYM2',
   },
   yrZF1LB7icQ2Bfe2ITGJRAy6gS23: {
+    rank:0,
     bananas: 2000,
     lastDayPlayed: '2018-10-06',
     longestStreak: 2,
@@ -356,6 +395,7 @@ export const dataObj: DataObj = {
     uid: 'yrZF1LB7icQ2Bfe2ITGJRAy6gS23',
   },
   yrgbxCOhkFedDQDEIccK0B6P8Bq2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -365,6 +405,7 @@ export const dataObj: DataObj = {
     uid: 'yrgbxCOhkFedDQDEIccK0B6P8Bq2',
   },
   yrjT0YXNQqPHfxuoQRfVcaDoBUo2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -374,6 +415,7 @@ export const dataObj: DataObj = {
     uid: 'yrjT0YXNQqPHfxuoQRfVcaDoBUo2',
   },
   yrq6MqHlQQfxCF87VUEY7M7FfIJ3: {
+    rank:0,
     bananas: 300,
     lastDayPlayed: '2018-12-06',
     longestStreak: 1,
@@ -383,6 +425,7 @@ export const dataObj: DataObj = {
     uid: 'yrq6MqHlQQfxCF87VUEY7M7FfIJ3',
   },
   ys9glgNgtlMUf2aiB8LCaSZ0NIW2: {
+    rank:0,
     bananas: 800,
     lastDayPlayed: '2018-04-02',
     longestStreak: 1,
@@ -392,6 +435,7 @@ export const dataObj: DataObj = {
     uid: 'ys9glgNgtlMUf2aiB8LCaSZ0NIW2',
   },
   ysd7rIlSYSU8N6gSHkUZuoZXmC23: {
+    rank:0,
     bananas: 550,
     lastDayPlayed: '2018-11-30',
     longestStreak: 1,
@@ -401,6 +445,7 @@ export const dataObj: DataObj = {
     uid: 'ysd7rIlSYSU8N6gSHkUZuoZXmC23',
   },
   ysp4Z26GGhYnuL5XBrd2G2mcdlr1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -410,6 +455,7 @@ export const dataObj: DataObj = {
     uid: 'ysp4Z26GGhYnuL5XBrd2G2mcdlr1',
   },
   yt3igRsSroWWVNHCcvn7ZWQaU0d2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -419,6 +465,7 @@ export const dataObj: DataObj = {
     uid: 'yt3igRsSroWWVNHCcvn7ZWQaU0d2',
   },
   yt48ltv037VGBiDYZSyV0KWxJPy1: {
+    rank:0,
     bananas: 100,
     lastDayPlayed: '2018-09-08',
     longestStreak: 1,
@@ -428,6 +475,7 @@ export const dataObj: DataObj = {
     uid: 'yt48ltv037VGBiDYZSyV0KWxJPy1',
   },
   ytAi1L2gKSQA92eTcFNR24XraKR2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -437,6 +485,7 @@ export const dataObj: DataObj = {
     uid: 'ytAi1L2gKSQA92eTcFNR24XraKR2',
   },
   ytCyUP9ZcpZcZAQB35gQIdAJJby1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -446,6 +495,7 @@ export const dataObj: DataObj = {
     uid: 'ytCyUP9ZcpZcZAQB35gQIdAJJby1',
   },
   ytMYFxsVrIgYYOuLyazJVzJJB8F2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -455,6 +505,7 @@ export const dataObj: DataObj = {
     uid: 'ytMYFxsVrIgYYOuLyazJVzJJB8F2',
   },
   ytTn69sLo2Y7OuVgEgxMJ7e82hF2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -464,6 +515,7 @@ export const dataObj: DataObj = {
     uid: 'ytTn69sLo2Y7OuVgEgxMJ7e82hF2',
   },
   ytVeJ5GWHaS8LPD0qd6zQOmPS7T2: {
+    rank:0,
     bananas: 150,
     lastDayPlayed: '2018-05-13',
     longestStreak: 1,
@@ -473,6 +525,7 @@ export const dataObj: DataObj = {
     uid: 'ytVeJ5GWHaS8LPD0qd6zQOmPS7T2',
   },
   ytXuFVCwsLMoimdn6Xz2Bx5W1072: {
+    rank:0,
     bananas: 1400,
     lastDayPlayed: '2018-05-08',
     longestStreak: 1,
@@ -482,6 +535,7 @@ export const dataObj: DataObj = {
     uid: 'ytXuFVCwsLMoimdn6Xz2Bx5W1072',
   },
   ytyzFHdUQoaaWcH7rTUlTQAzV702: {
+    rank:0,
     bananas: 2150,
     lastDayPlayed: '2019-01-05',
     longestStreak: 2,
@@ -491,6 +545,7 @@ export const dataObj: DataObj = {
     uid: 'ytyzFHdUQoaaWcH7rTUlTQAzV702',
   },
   yuIdXqyJZzSIgSx8AADfcpKZYvz1: {
+    rank:0,
     bananas: 1200,
     lastDayPlayed: '2019-01-20',
     longestStreak: 1,
@@ -500,6 +555,7 @@ export const dataObj: DataObj = {
     uid: 'yuIdXqyJZzSIgSx8AADfcpKZYvz1',
   },
   yuQqaZG7saYu9ZFCBFcnvvIDUnG3: {
+    rank:0,
     bananas: 750,
     lastDayPlayed: '2018-11-01',
     longestStreak: 2,
@@ -509,6 +565,7 @@ export const dataObj: DataObj = {
     uid: 'yuQqaZG7saYu9ZFCBFcnvvIDUnG3',
   },
   yuc1YnVeKnWf5h72ihDynqop4tk1: {
+    rank:0,
     bananas: 2650,
     lastDayPlayed: '2019-01-19',
     longestStreak: 1,
@@ -518,6 +575,7 @@ export const dataObj: DataObj = {
     uid: 'yuc1YnVeKnWf5h72ihDynqop4tk1',
   },
   yusdv5L6tVfjozEh2j74EQaCJ8u2: {
+    rank:0,
     bananas: 3750,
     lastDayPlayed: '2019-02-10',
     longestStreak: 2,
@@ -527,6 +585,7 @@ export const dataObj: DataObj = {
     uid: 'yusdv5L6tVfjozEh2j74EQaCJ8u2',
   },
   yv0aHXAP5ISkmvffxI5MMwOY7q83: {
+    rank:0,
     bananas: 800,
     lastDayPlayed: '2018-09-18',
     longestStreak: 1,
@@ -536,6 +595,7 @@ export const dataObj: DataObj = {
     uid: 'yv0aHXAP5ISkmvffxI5MMwOY7q83',
   },
   yv9jageV71WPnFZKip4pbHyGUT42: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -545,6 +605,7 @@ export const dataObj: DataObj = {
     uid: 'yv9jageV71WPnFZKip4pbHyGUT42',
   },
   yvHQWi0rYqfSnqX3nO2I84O3jkp1: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-11-23',
     longestStreak: 1,
@@ -554,6 +615,7 @@ export const dataObj: DataObj = {
     uid: 'yvHQWi0rYqfSnqX3nO2I84O3jkp1',
   },
   yvx5LeetLrbbmKwXcPrL603owlg2: {
+    rank:0,
     bananas: 600,
     lastDayPlayed: '2018-12-15',
     longestStreak: 1,
@@ -563,6 +625,7 @@ export const dataObj: DataObj = {
     uid: 'yvx5LeetLrbbmKwXcPrL603owlg2',
   },
   yw3SBcYFJcbqO5sygucsK3tD1P62: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -572,6 +635,7 @@ export const dataObj: DataObj = {
     uid: 'yw3SBcYFJcbqO5sygucsK3tD1P62',
   },
   ywDuLHGhIqfx5D0ZHidMftfrrpg2: {
+    rank:0,
     bananas: 3600,
     lastDayPlayed: '2018-05-24',
     longestStreak: 3,
@@ -581,6 +645,7 @@ export const dataObj: DataObj = {
     uid: 'ywDuLHGhIqfx5D0ZHidMftfrrpg2',
   },
   ywHYJA68VZcp0rrziU5GYAkTDPE2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -590,6 +655,7 @@ export const dataObj: DataObj = {
     uid: 'ywHYJA68VZcp0rrziU5GYAkTDPE2',
   },
   ywR5fUyYMVTpmOEyzdHWbEiNZ1x2: {
+    rank:0,
     bananas: 400,
     lastDayPlayed: '2019-02-06',
     longestStreak: 1,
@@ -599,6 +665,7 @@ export const dataObj: DataObj = {
     uid: 'ywR5fUyYMVTpmOEyzdHWbEiNZ1x2',
   },
   yws2KY8xBkMJDVRpfmInzzjWlRI2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -608,6 +675,7 @@ export const dataObj: DataObj = {
     uid: 'yws2KY8xBkMJDVRpfmInzzjWlRI2',
   },
   yxtWwo0CtXXsRooLiRy2S0U1ND63: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -617,6 +685,7 @@ export const dataObj: DataObj = {
     uid: 'yxtWwo0CtXXsRooLiRy2S0U1ND63',
   },
   yy1gzdAO5YUJEW9DNdclPsrXvgR2: {
+    rank:0,
     bananas: 300,
     lastDayPlayed: '2018-10-30',
     longestStreak: 1,
@@ -626,6 +695,7 @@ export const dataObj: DataObj = {
     uid: 'yy1gzdAO5YUJEW9DNdclPsrXvgR2',
   },
   yy4BetXI96bnkoUq7Vp0YtMyxMx2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -635,6 +705,7 @@ export const dataObj: DataObj = {
     uid: 'yy4BetXI96bnkoUq7Vp0YtMyxMx2',
   },
   yy4I38Qdg5W4clyDUfGXD5SqI2c2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -644,6 +715,7 @@ export const dataObj: DataObj = {
     uid: 'yy4I38Qdg5W4clyDUfGXD5SqI2c2',
   },
   yyJ2kFlwqNW5bRFfJfzt2r2LAmV2: {
+    rank:0,
     bananas: 1550,
     lastDayPlayed: '2018-12-16',
     longestStreak: 1,
@@ -653,6 +725,7 @@ export const dataObj: DataObj = {
     uid: 'yyJ2kFlwqNW5bRFfJfzt2r2LAmV2',
   },
   yyPvMrXzpKUYbmmcDwDc3PB8Iam2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -662,6 +735,7 @@ export const dataObj: DataObj = {
     uid: 'yyPvMrXzpKUYbmmcDwDc3PB8Iam2',
   },
   yyQjSDcmpsNsK7MhXcJJrR2rFRQ2: {
+    rank:0,
     bananas: 1100,
     lastDayPlayed: '2018-04-08',
     longestStreak: 1,
@@ -671,6 +745,7 @@ export const dataObj: DataObj = {
     uid: 'yyQjSDcmpsNsK7MhXcJJrR2rFRQ2',
   },
   yyW2jYRrNHWtRybIbM0pnM0KnpW2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -680,6 +755,7 @@ export const dataObj: DataObj = {
     uid: 'yyW2jYRrNHWtRybIbM0pnM0KnpW2',
   },
   yya5y47cvsWDD1eeB7q7xneJPj33: {
+    rank:0,
     bananas: 1100,
     lastDayPlayed: '2019-01-10',
     longestStreak: 1,
@@ -689,6 +765,7 @@ export const dataObj: DataObj = {
     uid: 'yya5y47cvsWDD1eeB7q7xneJPj33',
   },
   yyxUQwWgOueaq66AN675WPZv4bD3: {
+    rank:0,
     bananas: 100,
     lastDayPlayed: '2018-03-29',
     longestStreak: 1,
@@ -698,6 +775,7 @@ export const dataObj: DataObj = {
     uid: 'yyxUQwWgOueaq66AN675WPZv4bD3',
   },
   yz9Hh2H1LXfpMNQ5UupLYFSYnR22: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-06-06',
     longestStreak: 1,
@@ -707,6 +785,7 @@ export const dataObj: DataObj = {
     uid: 'yz9Hh2H1LXfpMNQ5UupLYFSYnR22',
   },
   yzGnMva1SJTBRiteWWGPVPfvybo2: {
+    rank:0,
     bananas: 150,
     lastDayPlayed: '2018-08-22',
     longestStreak: 1,
@@ -716,6 +795,7 @@ export const dataObj: DataObj = {
     uid: 'yzGnMva1SJTBRiteWWGPVPfvybo2',
   },
   yzVAdQBq9fQ45AaF0kmuToNUSKC2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -725,6 +805,7 @@ export const dataObj: DataObj = {
     uid: 'yzVAdQBq9fQ45AaF0kmuToNUSKC2',
   },
   yzbsWc1DrmfQl3lOOne1cOXvXOU2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -734,6 +815,7 @@ export const dataObj: DataObj = {
     uid: 'yzbsWc1DrmfQl3lOOne1cOXvXOU2',
   },
   yzgOjzYSRFUnJmLI9ZkyGvyltrn2: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-12-14',
     longestStreak: 1,
@@ -743,6 +825,7 @@ export const dataObj: DataObj = {
     uid: 'yzgOjzYSRFUnJmLI9ZkyGvyltrn2',
   },
   yzj1uxXIzrTJk8aUTEtiOCY4og93: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -752,6 +835,7 @@ export const dataObj: DataObj = {
     uid: 'yzj1uxXIzrTJk8aUTEtiOCY4og93',
   },
   yzoLr5Cj9NVZYVGaPHb8dKnah9e2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -761,6 +845,7 @@ export const dataObj: DataObj = {
     uid: 'yzoLr5Cj9NVZYVGaPHb8dKnah9e2',
   },
   yzqGJMNMEPU7lsjq7TE19qmectr1: {
+    rank:0,
     bananas: 4100,
     lastDayPlayed: '2018-11-27',
     longestStreak: 3,
@@ -770,6 +855,7 @@ export const dataObj: DataObj = {
     uid: 'yzqGJMNMEPU7lsjq7TE19qmectr1',
   },
   z00HnRNFIdgQaX1mjUy6alaa8tN2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -779,6 +865,7 @@ export const dataObj: DataObj = {
     uid: 'z00HnRNFIdgQaX1mjUy6alaa8tN2',
   },
   z0SL3HFXFoNCNxBMfVlfw4CcRx83: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -788,6 +875,7 @@ export const dataObj: DataObj = {
     uid: 'z0SL3HFXFoNCNxBMfVlfw4CcRx83',
   },
   z0V6TdKY9XhIrfA4sJSLtRiwJ8p1: {
+    rank:0,
     bananas: 1750,
     lastDayPlayed: '2018-08-18',
     longestStreak: 1,
@@ -797,6 +885,7 @@ export const dataObj: DataObj = {
     uid: 'z0V6TdKY9XhIrfA4sJSLtRiwJ8p1',
   },
   z0hZrUBLKufKeFWO2otxZRBm9U32: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -806,6 +895,7 @@ export const dataObj: DataObj = {
     uid: 'z0hZrUBLKufKeFWO2otxZRBm9U32',
   },
   z0lrfc2WkHcCG1UTvwRV76LykzE3: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-11-14',
     longestStreak: 1,
@@ -815,6 +905,7 @@ export const dataObj: DataObj = {
     uid: 'z0lrfc2WkHcCG1UTvwRV76LykzE3',
   },
   z11GPjsorkX7QcWrKCuUdoKjDz03: {
+    rank:0,
     bananas: 750,
     lastDayPlayed: '2019-01-08',
     longestStreak: 1,
@@ -824,6 +915,7 @@ export const dataObj: DataObj = {
     uid: 'z11GPjsorkX7QcWrKCuUdoKjDz03',
   },
   z12664btwsMUWMvf2krKYMgGZos1: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-10-07',
     longestStreak: 1,
@@ -833,6 +925,7 @@ export const dataObj: DataObj = {
     uid: 'z12664btwsMUWMvf2krKYMgGZos1',
   },
   z14XAQIat8bTKwm37XXAtYdRy8p1: {
+    rank:0,
     bananas: 300,
     lastDayPlayed: '2018-09-08',
     longestStreak: 1,
@@ -842,6 +935,7 @@ export const dataObj: DataObj = {
     uid: 'z14XAQIat8bTKwm37XXAtYdRy8p1',
   },
   z154noE5w9YScrE75dm0dOitueg2: {
+    rank:0,
     bananas: 800,
     lastDayPlayed: '2018-04-13',
     longestStreak: 1,
@@ -851,6 +945,7 @@ export const dataObj: DataObj = {
     uid: 'z154noE5w9YScrE75dm0dOitueg2',
   },
   z159rqfnAhUsyFIoRlptymEWheP2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -860,6 +955,7 @@ export const dataObj: DataObj = {
     uid: 'z159rqfnAhUsyFIoRlptymEWheP2',
   },
   z16TRDZM64M0BfRPeSFMtdTYr042: {
+    rank:0,
     bananas: 1450,
     lastDayPlayed: '2018-11-15',
     longestStreak: 1,
@@ -869,6 +965,7 @@ export const dataObj: DataObj = {
     uid: 'z16TRDZM64M0BfRPeSFMtdTYr042',
   },
   z16ejSkA40TmfyiJbbJGwgyR01x1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -878,6 +975,7 @@ export const dataObj: DataObj = {
     uid: 'z16ejSkA40TmfyiJbbJGwgyR01x1',
   },
   z1DlsaXyEwMPv53mPjBAujQKV9t1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -887,6 +985,7 @@ export const dataObj: DataObj = {
     uid: 'z1DlsaXyEwMPv53mPjBAujQKV9t1',
   },
   z1GnXgTtbWOgNQPfeMJAmsj6HMa2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -896,6 +995,7 @@ export const dataObj: DataObj = {
     uid: 'z1GnXgTtbWOgNQPfeMJAmsj6HMa2',
   },
   z1LCU6jviFPeS37RIdp1EGDNs8N2: {
+    rank:0,
     bananas: 600,
     lastDayPlayed: '2018-06-12',
     longestStreak: 1,
@@ -905,6 +1005,7 @@ export const dataObj: DataObj = {
     uid: 'z1LCU6jviFPeS37RIdp1EGDNs8N2',
   },
   z1QlzHOuskgQjh9X3DXsyn0cMVT2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -914,6 +1015,7 @@ export const dataObj: DataObj = {
     uid: 'z1QlzHOuskgQjh9X3DXsyn0cMVT2',
   },
   z1b291SyyPewxqxcykF5fHc15uI2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -923,6 +1025,7 @@ export const dataObj: DataObj = {
     uid: 'z1b291SyyPewxqxcykF5fHc15uI2',
   },
   z1d2ESYe9BcMTpXe8VxsmtpquNp1: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-06-25',
     longestStreak: 1,
@@ -932,6 +1035,7 @@ export const dataObj: DataObj = {
     uid: 'z1d2ESYe9BcMTpXe8VxsmtpquNp1',
   },
   z1j35bKOVJRpdpczzEccAwZXC3b2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -941,6 +1045,7 @@ export const dataObj: DataObj = {
     uid: 'z1j35bKOVJRpdpczzEccAwZXC3b2',
   },
   z1kvBOXHCpaadn4Yrw7UQEy4PJ13: {
+    rank:0,
     bananas: 800,
     lastDayPlayed: '2018-12-23',
     longestStreak: 1,
@@ -950,6 +1055,7 @@ export const dataObj: DataObj = {
     uid: 'z1kvBOXHCpaadn4Yrw7UQEy4PJ13',
   },
   z1sPPlQaaqSXmP1OR7Bf0mIxiko2: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-08-10',
     longestStreak: 1,
@@ -959,6 +1065,7 @@ export const dataObj: DataObj = {
     uid: 'z1sPPlQaaqSXmP1OR7Bf0mIxiko2',
   },
   z1vrWHwukmWQV7kp5SlkR8ne7Tu2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -968,6 +1075,7 @@ export const dataObj: DataObj = {
     uid: 'z1vrWHwukmWQV7kp5SlkR8ne7Tu2',
   },
   z1wyXCIVK6bfRnZVOr0taSvrvB53: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -977,6 +1085,7 @@ export const dataObj: DataObj = {
     uid: 'z1wyXCIVK6bfRnZVOr0taSvrvB53',
   },
   z293hH8osXbPNZIFnDOagyfJaJy2: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-09-11',
     longestStreak: 1,
@@ -986,6 +1095,7 @@ export const dataObj: DataObj = {
     uid: 'z293hH8osXbPNZIFnDOagyfJaJy2',
   },
   z2ATS93yfZgvmieW40ltcdVjk0D3: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-06-22',
     longestStreak: 1,
@@ -995,6 +1105,7 @@ export const dataObj: DataObj = {
     uid: 'z2ATS93yfZgvmieW40ltcdVjk0D3',
   },
   z2FFX2uW5QTduocHmyzva9170y22: {
+    rank:0,
     bananas: 1750,
     lastDayPlayed: '2018-07-05',
     longestStreak: 2,
@@ -1004,6 +1115,7 @@ export const dataObj: DataObj = {
     uid: 'z2FFX2uW5QTduocHmyzva9170y22',
   },
   z2NwaBp1fMfOzmiRaPfByOLgste2: {
+    rank:0,
     bananas: 700,
     lastDayPlayed: '2018-05-23',
     longestStreak: 1,
@@ -1013,6 +1125,7 @@ export const dataObj: DataObj = {
     uid: 'z2NwaBp1fMfOzmiRaPfByOLgste2',
   },
   z2YsmwEl9abzIGXpeq3w7ProJGL2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1022,6 +1135,7 @@ export const dataObj: DataObj = {
     uid: 'z2YsmwEl9abzIGXpeq3w7ProJGL2',
   },
   z30C0LE2yZZ5agApZuRg6QGRkSD3: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2019-02-01',
     longestStreak: 1,
@@ -1031,6 +1145,7 @@ export const dataObj: DataObj = {
     uid: 'z30C0LE2yZZ5agApZuRg6QGRkSD3',
   },
   z39j1OgxZYcsxVlU226STEuaKKt2: {
+    rank:0,
     bananas: 400,
     lastDayPlayed: '2018-08-11',
     longestStreak: 1,
@@ -1040,6 +1155,7 @@ export const dataObj: DataObj = {
     uid: 'z39j1OgxZYcsxVlU226STEuaKKt2',
   },
   z3Hfnvu0EiZxVoL7JIibClu43ry1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1049,6 +1165,7 @@ export const dataObj: DataObj = {
     uid: 'z3Hfnvu0EiZxVoL7JIibClu43ry1',
   },
   z3aQznUPmiUSFGSrs3ZgXYlesTv2: {
+    rank:0,
     bananas: 1800,
     lastDayPlayed: '2018-11-23',
     longestStreak: 1,
@@ -1058,6 +1175,7 @@ export const dataObj: DataObj = {
     uid: 'z3aQznUPmiUSFGSrs3ZgXYlesTv2',
   },
   z3cGuT4BkXT6oR2ETed873Rbmg63: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1067,6 +1185,7 @@ export const dataObj: DataObj = {
     uid: 'z3cGuT4BkXT6oR2ETed873Rbmg63',
   },
   z3fugLrchDYHgi2mEXmFexOSMI43: {
+    rank:0,
     bananas: 150,
     lastDayPlayed: '2019-01-01',
     longestStreak: 1,
@@ -1076,6 +1195,7 @@ export const dataObj: DataObj = {
     uid: 'z3fugLrchDYHgi2mEXmFexOSMI43',
   },
   z3gFk4xg72O2aCAfZK5HqPAZtwI2: {
+    rank:0,
     bananas: 800,
     lastDayPlayed: '2019-01-20',
     longestStreak: 1,
@@ -1085,6 +1205,7 @@ export const dataObj: DataObj = {
     uid: 'z3gFk4xg72O2aCAfZK5HqPAZtwI2',
   },
   z3pLrySIr8TaTLCNxtmTzJ5sbZc2: {
+    rank:0,
     bananas: 500,
     lastDayPlayed: '2018-07-09',
     longestStreak: 2,
@@ -1094,6 +1215,7 @@ export const dataObj: DataObj = {
     uid: 'z3pLrySIr8TaTLCNxtmTzJ5sbZc2',
   },
   z3v9IyDw2IQ0US8QnBe7XgKYFBE2: {
+    rank:0,
     bananas: 700,
     lastDayPlayed: '2019-01-11',
     longestStreak: 2,
@@ -1103,6 +1225,7 @@ export const dataObj: DataObj = {
     uid: 'z3v9IyDw2IQ0US8QnBe7XgKYFBE2',
   },
   z48Wfqhx5xaUBkLyMFCElVuiDFr1: {
+    rank:0,
     bananas: 2500,
     lastDayPlayed: '2018-05-25',
     longestStreak: 3,
@@ -1112,6 +1235,7 @@ export const dataObj: DataObj = {
     uid: 'z48Wfqhx5xaUBkLyMFCElVuiDFr1',
   },
   z4BrQeSC2JdYBy7y3ogViSZnwA63: {
+    rank:0,
     bananas: 400,
     lastDayPlayed: '2018-05-21',
     longestStreak: 1,
@@ -1121,6 +1245,7 @@ export const dataObj: DataObj = {
     uid: 'z4BrQeSC2JdYBy7y3ogViSZnwA63',
   },
   z4J1tfLxqxVLRoz7g5KdWPHgMX62: {
+    rank:0,
     bananas: 250,
     lastDayPlayed: '2019-01-07',
     longestStreak: 2,
@@ -1130,6 +1255,7 @@ export const dataObj: DataObj = {
     uid: 'z4J1tfLxqxVLRoz7g5KdWPHgMX62',
   },
   z4apUshNhCb5FkLpmRKzjk3sePs1: {
+    rank:0,
     bananas: 750,
     lastDayPlayed: '2018-08-22',
     longestStreak: 1,
@@ -1139,6 +1265,7 @@ export const dataObj: DataObj = {
     uid: 'z4apUshNhCb5FkLpmRKzjk3sePs1',
   },
   z4lPYaqr4LSxsqvW7xGH70yBtO22: {
+    rank:0,
     bananas: 2000,
     lastDayPlayed: '2019-01-13',
     longestStreak: 3,
@@ -1148,6 +1275,7 @@ export const dataObj: DataObj = {
     uid: 'z4lPYaqr4LSxsqvW7xGH70yBtO22',
   },
   z4rQXao1uwYh2ur4dfzDHGwOp5A2: {
+    rank:0,
     bananas: 3150,
     lastDayPlayed: '2018-12-27',
     longestStreak: 1,
@@ -1157,6 +1285,7 @@ export const dataObj: DataObj = {
     uid: 'z4rQXao1uwYh2ur4dfzDHGwOp5A2',
   },
   z59xxcF2Y2YBzFbRbaZg1AqU1vj1: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-07-01',
     longestStreak: 1,
@@ -1166,6 +1295,7 @@ export const dataObj: DataObj = {
     uid: 'z59xxcF2Y2YBzFbRbaZg1AqU1vj1',
   },
   z5AUSxZL80exW3wlsLA1swg0vVQ2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1175,6 +1305,7 @@ export const dataObj: DataObj = {
     uid: 'z5AUSxZL80exW3wlsLA1swg0vVQ2',
   },
   z5I2l0nLnqas8H4bQEAiIX6iTT72: {
+    rank:0,
     bananas: 5600,
     lastDayPlayed: '2018-08-10',
     longestStreak: 4,
@@ -1184,6 +1315,7 @@ export const dataObj: DataObj = {
     uid: 'z5I2l0nLnqas8H4bQEAiIX6iTT72',
   },
   z5f976TTaBfzfVl9b3h1ZT5dxWq1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1193,6 +1325,7 @@ export const dataObj: DataObj = {
     uid: 'z5f976TTaBfzfVl9b3h1ZT5dxWq1',
   },
   z5pnPic3KQQ0HBg8c85ejlQmZpS2: {
+    rank:0,
     bananas: 500,
     lastDayPlayed: '2019-01-05',
     longestStreak: 1,
@@ -1202,6 +1335,7 @@ export const dataObj: DataObj = {
     uid: 'z5pnPic3KQQ0HBg8c85ejlQmZpS2',
   },
   z60rROZVm6ZVrIgRObZVAbfcqQ33: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1211,6 +1345,7 @@ export const dataObj: DataObj = {
     uid: 'z60rROZVm6ZVrIgRObZVAbfcqQ33',
   },
   z649K1u1MTNOmZ8aWVo1u8Sung72: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1220,6 +1355,7 @@ export const dataObj: DataObj = {
     uid: 'z649K1u1MTNOmZ8aWVo1u8Sung72',
   },
   z6RVBacBiMbmS5xtTZXcDcyeQZI3: {
+    rank:0,
     bananas: 3400,
     lastDayPlayed: '2018-08-09',
     longestStreak: 2,
@@ -1229,6 +1365,7 @@ export const dataObj: DataObj = {
     uid: 'z6RVBacBiMbmS5xtTZXcDcyeQZI3',
   },
   z6xfABXNKEUqNGXkM4PTnS9LCC92: {
+    rank:0,
     bananas: 1800,
     lastDayPlayed: '2019-01-01',
     longestStreak: 2,
@@ -1238,6 +1375,7 @@ export const dataObj: DataObj = {
     uid: 'z6xfABXNKEUqNGXkM4PTnS9LCC92',
   },
   z729ZQFVSXN1eAJeSaPDUkvS8UY2: {
+    rank:0,
     bananas: 750,
     lastDayPlayed: '2018-09-03',
     longestStreak: 1,
@@ -1247,6 +1385,7 @@ export const dataObj: DataObj = {
     uid: 'z729ZQFVSXN1eAJeSaPDUkvS8UY2',
   },
   z7IbNBFh5FZ7wiIMHETRpfimMzj1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1256,6 +1395,7 @@ export const dataObj: DataObj = {
     uid: 'z7IbNBFh5FZ7wiIMHETRpfimMzj1',
   },
   z7LaOBiAypPaPfPVhgE6vgfgp2r1: {
+    rank:0,
     bananas: 400,
     lastDayPlayed: '2018-11-29',
     longestStreak: 1,
@@ -1265,6 +1405,7 @@ export const dataObj: DataObj = {
     uid: 'z7LaOBiAypPaPfPVhgE6vgfgp2r1',
   },
   z7SD5HJRZCYnCYNpk3gseTaLbF82: {
+    rank:0,
     bananas: 150,
     lastDayPlayed: '2018-08-18',
     longestStreak: 1,
@@ -1274,6 +1415,7 @@ export const dataObj: DataObj = {
     uid: 'z7SD5HJRZCYnCYNpk3gseTaLbF82',
   },
   z7UqpNDYugVpzkzi9LKT8ns4T8w2: {
+    rank:0,
     bananas: 800,
     lastDayPlayed: '2019-01-31',
     longestStreak: 2,
@@ -1283,6 +1425,7 @@ export const dataObj: DataObj = {
     uid: 'z7UqpNDYugVpzkzi9LKT8ns4T8w2',
   },
   z7ZQBUiGFvRQgbO7BfyYnP4u2cZ2: {
+    rank:0,
     bananas: 1000,
     lastDayPlayed: '2018-09-18',
     longestStreak: 1,
@@ -1292,6 +1435,7 @@ export const dataObj: DataObj = {
     uid: 'z7ZQBUiGFvRQgbO7BfyYnP4u2cZ2',
   },
   z7fRH98VgaM0Dz5O5h1VrTo4qc22: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1301,6 +1445,7 @@ export const dataObj: DataObj = {
     uid: 'z7fRH98VgaM0Dz5O5h1VrTo4qc22',
   },
   z7ucAO8UMkTrJEl6oTVzfVwP6D53: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1310,6 +1455,7 @@ export const dataObj: DataObj = {
     uid: 'z7ucAO8UMkTrJEl6oTVzfVwP6D53',
   },
   z8B9Q49srNQOzo5vSadHnqW3geG2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1319,6 +1465,7 @@ export const dataObj: DataObj = {
     uid: 'z8B9Q49srNQOzo5vSadHnqW3geG2',
   },
   z8EF5dsJxWhEEDvnjDhKX9JsXNd2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1328,6 +1475,7 @@ export const dataObj: DataObj = {
     uid: 'z8EF5dsJxWhEEDvnjDhKX9JsXNd2',
   },
   z8RUiiuvb4S2kP7LQyMHjwH6jS62: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1337,6 +1485,7 @@ export const dataObj: DataObj = {
     uid: 'z8RUiiuvb4S2kP7LQyMHjwH6jS62',
   },
   z8ekzon64wYPQCz6EBpz4trv4jG2: {
+    rank:0,
     bananas: 150,
     lastDayPlayed: '2018-05-07',
     longestStreak: 1,
@@ -1346,6 +1495,7 @@ export const dataObj: DataObj = {
     uid: 'z8ekzon64wYPQCz6EBpz4trv4jG2',
   },
   z8juUbIREqXxHAXORfWultk8QV23: {
+    rank:0,
     bananas: 150,
     lastDayPlayed: '2018-10-24',
     longestStreak: 1,
@@ -1355,6 +1505,7 @@ export const dataObj: DataObj = {
     uid: 'z8juUbIREqXxHAXORfWultk8QV23',
   },
   z9P2rPiQ39Sj786CpJIC0BlUUeS2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1364,6 +1515,7 @@ export const dataObj: DataObj = {
     uid: 'z9P2rPiQ39Sj786CpJIC0BlUUeS2',
   },
   z9WiHWYhsiTAEEyH9ERfMj5z81m1: {
+    rank:0,
     bananas: 3350,
     lastDayPlayed: '2019-01-20',
     longestStreak: 1,
@@ -1373,6 +1525,7 @@ export const dataObj: DataObj = {
     uid: 'z9WiHWYhsiTAEEyH9ERfMj5z81m1',
   },
   z9pzIUcQ4kNGy78cuZnEZjEFGy22: {
+    rank:0,
     bananas: 2650,
     lastDayPlayed: '2019-01-06',
     longestStreak: 1,
@@ -1382,6 +1535,7 @@ export const dataObj: DataObj = {
     uid: 'z9pzIUcQ4kNGy78cuZnEZjEFGy22',
   },
   z9r8npWQOlY2oYbCcf8oHCXvDly1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1391,6 +1545,7 @@ export const dataObj: DataObj = {
     uid: 'z9r8npWQOlY2oYbCcf8oHCXvDly1',
   },
   zA1unJJE9TQh02oiILML6TrY3ZI2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1400,6 +1555,7 @@ export const dataObj: DataObj = {
     uid: 'zA1unJJE9TQh02oiILML6TrY3ZI2',
   },
   zA3OyMI0MEZAPXOpzOCdz1h3y6Y2: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-08-12',
     longestStreak: 1,
@@ -1409,6 +1565,7 @@ export const dataObj: DataObj = {
     uid: 'zA3OyMI0MEZAPXOpzOCdz1h3y6Y2',
   },
   zADk35N5Z2Wd2Nj573HoSC2MlMK2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1418,6 +1575,7 @@ export const dataObj: DataObj = {
     uid: 'zADk35N5Z2Wd2Nj573HoSC2MlMK2',
   },
   zAE5V4Q7ISbpbIR5a5art10TlfP2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1427,6 +1585,7 @@ export const dataObj: DataObj = {
     uid: 'zAE5V4Q7ISbpbIR5a5art10TlfP2',
   },
   zATT3rA1m4O6bBAjhdcAY8fdt6m2: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2019-01-05',
     longestStreak: 1,
@@ -1436,6 +1595,7 @@ export const dataObj: DataObj = {
     uid: 'zATT3rA1m4O6bBAjhdcAY8fdt6m2',
   },
   zAyvQgkMOUTZXMlkURMT3jlP1T83: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1445,6 +1605,7 @@ export const dataObj: DataObj = {
     uid: 'zAyvQgkMOUTZXMlkURMT3jlP1T83',
   },
   zB4tV9SDrDWwTy1y9h2Wv39Kf2Z2: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-09-10',
     longestStreak: 1,
@@ -1454,6 +1615,7 @@ export const dataObj: DataObj = {
     uid: 'zB4tV9SDrDWwTy1y9h2Wv39Kf2Z2',
   },
   zBItRZXmNCdh72KqkIo9PWsWKtR2: {
+    rank:0,
     bananas: 100,
     lastDayPlayed: '2018-09-21',
     longestStreak: 1,
@@ -1463,6 +1625,7 @@ export const dataObj: DataObj = {
     uid: 'zBItRZXmNCdh72KqkIo9PWsWKtR2',
   },
   zBgGPzU0saQuZHL7EH3T8xX6zCm2: {
+    rank:0,
     bananas: 18250,
     lastDayPlayed: '2019-02-01',
     longestStreak: 13,
@@ -1472,6 +1635,7 @@ export const dataObj: DataObj = {
     uid: 'zBgGPzU0saQuZHL7EH3T8xX6zCm2',
   },
   zBqRAlo7QSRJT75fcnMC4cA3PkG3: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1481,6 +1645,7 @@ export const dataObj: DataObj = {
     uid: 'zBqRAlo7QSRJT75fcnMC4cA3PkG3',
   },
   zBqesUIHQxZhKlmeiuIeX1URPrk2: {
+    rank:0,
     bananas: 3200,
     lastDayPlayed: '2018-07-01',
     longestStreak: 1,
@@ -1490,6 +1655,7 @@ export const dataObj: DataObj = {
     uid: 'zBqesUIHQxZhKlmeiuIeX1URPrk2',
   },
   zC2eZI99BTWZabnyLiP7eDn4HPn2: {
+    rank:0,
     bananas: 400,
     lastDayPlayed: '2018-12-18',
     longestStreak: 1,
@@ -1499,6 +1665,7 @@ export const dataObj: DataObj = {
     uid: 'zC2eZI99BTWZabnyLiP7eDn4HPn2',
   },
   zCdLX0GNWsU7fEwGrAppMxUiIZQ2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1508,6 +1675,7 @@ export const dataObj: DataObj = {
     uid: 'zCdLX0GNWsU7fEwGrAppMxUiIZQ2',
   },
   zCeacxK19nN2qe2LKMlpp8cw3FI2: {
+    rank:0,
     bananas: 400,
     lastDayPlayed: '2018-04-07',
     longestStreak: 1,
@@ -1517,6 +1685,7 @@ export const dataObj: DataObj = {
     uid: 'zCeacxK19nN2qe2LKMlpp8cw3FI2',
   },
   zCgeyCZynmZDuckVUfkxk3tNWDz2: {
+    rank:0,
     bananas: 600,
     lastDayPlayed: '2018-11-26',
     longestStreak: 1,
@@ -1526,6 +1695,7 @@ export const dataObj: DataObj = {
     uid: 'zCgeyCZynmZDuckVUfkxk3tNWDz2',
   },
   zCjuR4mh5waicF2sGAc5a5wBfzy1: {
+    rank:0,
     bananas: 5850,
     lastDayPlayed: '2018-04-12',
     longestStreak: 2,
@@ -1535,6 +1705,7 @@ export const dataObj: DataObj = {
     uid: 'zCjuR4mh5waicF2sGAc5a5wBfzy1',
   },
   zClh4JgBpLO3mMUSjvgCSr2cNml1: {
+    rank:0,
     bananas: 100,
     lastDayPlayed: '2018-07-29',
     longestStreak: 1,
@@ -1544,6 +1715,7 @@ export const dataObj: DataObj = {
     uid: 'zClh4JgBpLO3mMUSjvgCSr2cNml1',
   },
   zCpS1Z4orTfwRYr7HCfDCVIeVt73: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1553,6 +1725,7 @@ export const dataObj: DataObj = {
     uid: 'zCpS1Z4orTfwRYr7HCfDCVIeVt73',
   },
   zD3amf9dRkb9493I4oWiAu178Qi2: {
+    rank:0,
     bananas: 450,
     lastDayPlayed: '2019-01-03',
     longestStreak: 1,
@@ -1562,6 +1735,7 @@ export const dataObj: DataObj = {
     uid: 'zD3amf9dRkb9493I4oWiAu178Qi2',
   },
   zDEHlcQuNogrlRDSP0LPgqB2sOV2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1571,6 +1745,7 @@ export const dataObj: DataObj = {
     uid: 'zDEHlcQuNogrlRDSP0LPgqB2sOV2',
   },
   zDEg7jfgQ5ch0C4J4DaJFRlRIlb2: {
+    rank:0,
     bananas: 400,
     lastDayPlayed: '2018-04-17',
     longestStreak: 1,
@@ -1580,6 +1755,7 @@ export const dataObj: DataObj = {
     uid: 'zDEg7jfgQ5ch0C4J4DaJFRlRIlb2',
   },
   zDHhDho9h5fTDntQhyEg66RMvqK2: {
+    rank:0,
     bananas: 6550,
     lastDayPlayed: '2018-09-18',
     longestStreak: 6,
@@ -1589,6 +1765,7 @@ export const dataObj: DataObj = {
     uid: 'zDHhDho9h5fTDntQhyEg66RMvqK2',
   },
   zDV2IhOoEgSYTqhB0oSgcN4YEij1: {
+    rank:0,
     bananas: 1650,
     lastDayPlayed: '2018-05-23',
     longestStreak: 1,
@@ -1598,6 +1775,7 @@ export const dataObj: DataObj = {
     uid: 'zDV2IhOoEgSYTqhB0oSgcN4YEij1',
   },
   zDXfzC9hw2Xe6JUmWcmqbiYt4eo1: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-12-11',
     longestStreak: 1,
@@ -1607,6 +1785,7 @@ export const dataObj: DataObj = {
     uid: 'zDXfzC9hw2Xe6JUmWcmqbiYt4eo1',
   },
   zDd6KlhaoKOEE22bbUfAQ7ahRIp2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1616,6 +1795,7 @@ export const dataObj: DataObj = {
     uid: 'zDd6KlhaoKOEE22bbUfAQ7ahRIp2',
   },
   zDeUeaafz4YGiGMyInlqR6aJhcE3: {
+    rank:0,
     bananas: 4850,
     lastDayPlayed: '2018-11-23',
     longestStreak: 3,
@@ -1625,6 +1805,7 @@ export const dataObj: DataObj = {
     uid: 'zDeUeaafz4YGiGMyInlqR6aJhcE3',
   },
   zE0W0LAE0KQCGcM9yFqA8bC8zRA3: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1634,6 +1815,7 @@ export const dataObj: DataObj = {
     uid: 'zE0W0LAE0KQCGcM9yFqA8bC8zRA3',
   },
   zENP7og5QLdb17sghjIRbCGminq1: {
+    rank:0,
     bananas: 3000,
     lastDayPlayed: '2018-09-09',
     longestStreak: 3,
@@ -1643,6 +1825,7 @@ export const dataObj: DataObj = {
     uid: 'zENP7og5QLdb17sghjIRbCGminq1',
   },
   zEaX8gIOmUN10j9u1JdzBF84ybb2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1652,6 +1835,7 @@ export const dataObj: DataObj = {
     uid: 'zEaX8gIOmUN10j9u1JdzBF84ybb2',
   },
   zEjso3ZuyRUMnYKQQO83n4lMCEF3: {
+    rank:0,
     bananas: 1100,
     lastDayPlayed: '2018-11-18',
     longestStreak: 1,
@@ -1661,6 +1845,7 @@ export const dataObj: DataObj = {
     uid: 'zEjso3ZuyRUMnYKQQO83n4lMCEF3',
   },
   zF1mvWPB9KQk4NKGOtt90eAcfGd2: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-06-28',
     longestStreak: 1,
@@ -1670,6 +1855,7 @@ export const dataObj: DataObj = {
     uid: 'zF1mvWPB9KQk4NKGOtt90eAcfGd2',
   },
   zFVZhSXA5JQeDhz4kSs13nAlDhG2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1679,6 +1865,7 @@ export const dataObj: DataObj = {
     uid: 'zFVZhSXA5JQeDhz4kSs13nAlDhG2',
   },
   zFWA3lfviJU1P0TCpa32CgGC12z1: {
+    rank:0,
     bananas: 100,
     lastDayPlayed: '2018-04-19',
     longestStreak: 1,
@@ -1688,6 +1875,7 @@ export const dataObj: DataObj = {
     uid: 'zFWA3lfviJU1P0TCpa32CgGC12z1',
   },
   zFaFCZHPSuPwkT4XhqfjYFmSakJ3: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2019-01-20',
     longestStreak: 1,
@@ -1697,6 +1885,7 @@ export const dataObj: DataObj = {
     uid: 'zFaFCZHPSuPwkT4XhqfjYFmSakJ3',
   },
   zG5OYn6wz9XuEPhgMTN2gichTKX2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1706,6 +1895,7 @@ export const dataObj: DataObj = {
     uid: 'zG5OYn6wz9XuEPhgMTN2gichTKX2',
   },
   zGBBKaajYgfOUpyA3WwPQ6Mz7Z12: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1715,6 +1905,7 @@ export const dataObj: DataObj = {
     uid: 'zGBBKaajYgfOUpyA3WwPQ6Mz7Z12',
   },
   zGHiHrvovZUZgpfYw0nhMrvkLF32: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1724,6 +1915,7 @@ export const dataObj: DataObj = {
     uid: 'zGHiHrvovZUZgpfYw0nhMrvkLF32',
   },
   zGSkeA0AecOSQiSGK8f0KH8AoYE2: {
+    rank:0,
     bananas: 1650,
     lastDayPlayed: '2018-04-05',
     longestStreak: 1,
@@ -1733,6 +1925,7 @@ export const dataObj: DataObj = {
     uid: 'zGSkeA0AecOSQiSGK8f0KH8AoYE2',
   },
   zGr0mJvXUIT3y6biNL3dZO75J192: {
+    rank:0,
     bananas: 2300,
     lastDayPlayed: '2019-02-07',
     longestStreak: 2,
@@ -1742,6 +1935,7 @@ export const dataObj: DataObj = {
     uid: 'zGr0mJvXUIT3y6biNL3dZO75J192',
   },
   zGr67yPirkco79vTGGC1QDSZ4x03: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1751,6 +1945,7 @@ export const dataObj: DataObj = {
     uid: 'zGr67yPirkco79vTGGC1QDSZ4x03',
   },
   zGuZrvhx15MsX14BctMmOm1RMLk2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1760,6 +1955,7 @@ export const dataObj: DataObj = {
     uid: 'zGuZrvhx15MsX14BctMmOm1RMLk2',
   },
   zH2JJjxdKfY548lHPYeeF4Lkxll2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1769,6 +1965,7 @@ export const dataObj: DataObj = {
     uid: 'zH2JJjxdKfY548lHPYeeF4Lkxll2',
   },
   zH4WDQZf44T3zy8pxgErEAHKCxO2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1778,6 +1975,7 @@ export const dataObj: DataObj = {
     uid: 'zH4WDQZf44T3zy8pxgErEAHKCxO2',
   },
   zHNPE7X22PPhuEa0de5xkwWr5Kh2: {
+    rank:0,
     bananas: 1900,
     lastDayPlayed: '2018-08-24',
     longestStreak: 2,
@@ -1787,6 +1985,7 @@ export const dataObj: DataObj = {
     uid: 'zHNPE7X22PPhuEa0de5xkwWr5Kh2',
   },
   zHOw8fsRF6cyABBOCjWRbzaLRoC2: {
+    rank:0,
     bananas: 800,
     lastDayPlayed: '2018-12-29',
     longestStreak: 1,
@@ -1796,6 +1995,7 @@ export const dataObj: DataObj = {
     uid: 'zHOw8fsRF6cyABBOCjWRbzaLRoC2',
   },
   zHokvVRwUcMKGHHFCNmdGjmUQLH3: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1805,6 +2005,7 @@ export const dataObj: DataObj = {
     uid: 'zHokvVRwUcMKGHHFCNmdGjmUQLH3',
   },
   zI0kuNIiOtYK4v65YdAuVEOG51Y2: {
+    rank:0,
     bananas: 1450,
     lastDayPlayed: '2018-10-14',
     longestStreak: 1,
@@ -1814,6 +2015,7 @@ export const dataObj: DataObj = {
     uid: 'zI0kuNIiOtYK4v65YdAuVEOG51Y2',
   },
   zI4YDfQ5FXfVk48dEqqlr4CQiTw2: {
+    rank:0,
     bananas: 1400,
     lastDayPlayed: '2018-06-06',
     longestStreak: 2,
@@ -1823,6 +2025,7 @@ export const dataObj: DataObj = {
     uid: 'zI4YDfQ5FXfVk48dEqqlr4CQiTw2',
   },
   zI4aHkI0szMk5eFAFxNgXnnHluA2: {
+    rank:0,
     bananas: 350,
     lastDayPlayed: '2019-01-12',
     longestStreak: 1,
@@ -1832,6 +2035,7 @@ export const dataObj: DataObj = {
     uid: 'zI4aHkI0szMk5eFAFxNgXnnHluA2',
   },
   zI8TdPpA1lSL3bFy82gvpUB9dRL2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1841,6 +2045,7 @@ export const dataObj: DataObj = {
     uid: 'zI8TdPpA1lSL3bFy82gvpUB9dRL2',
   },
   zICAuYwAtahh4MdRT43qnauf2H43: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1850,6 +2055,7 @@ export const dataObj: DataObj = {
     uid: 'zICAuYwAtahh4MdRT43qnauf2H43',
   },
   zIF4uId7QOMWxs2qEgaM3s51kk53: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1859,6 +2065,7 @@ export const dataObj: DataObj = {
     uid: 'zIF4uId7QOMWxs2qEgaM3s51kk53',
   },
   zIJRzvb7pIY9U0HWQilQTgrciVp2: {
+    rank:0,
     bananas: 300,
     lastDayPlayed: '2018-04-14',
     longestStreak: 1,
@@ -1868,6 +2075,7 @@ export const dataObj: DataObj = {
     uid: 'zIJRzvb7pIY9U0HWQilQTgrciVp2',
   },
   zIcuVjS7HVUZ7xXL6mEVAXhfwf83: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1877,6 +2085,7 @@ export const dataObj: DataObj = {
     uid: 'zIcuVjS7HVUZ7xXL6mEVAXhfwf83',
   },
   zIuUTLc10jdvp1RAmK21OFv0Jas1: {
+    rank:0,
     bananas: 2550,
     lastDayPlayed: '2018-12-29',
     longestStreak: 1,
@@ -1886,6 +2095,7 @@ export const dataObj: DataObj = {
     uid: 'zIuUTLc10jdvp1RAmK21OFv0Jas1',
   },
   zJAwocLdNqV8zZYTWLHIe4kXS023: {
+    rank:0,
     bananas: 800,
     lastDayPlayed: '2018-10-07',
     longestStreak: 1,
@@ -1895,6 +2105,7 @@ export const dataObj: DataObj = {
     uid: 'zJAwocLdNqV8zZYTWLHIe4kXS023',
   },
   zJXU0vvKtOZTBtdGCpF7DETyFXt2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1904,6 +2115,7 @@ export const dataObj: DataObj = {
     uid: 'zJXU0vvKtOZTBtdGCpF7DETyFXt2',
   },
   zJZCVjAwLFNBaPch3JdrNvDktWn1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1913,6 +2125,7 @@ export const dataObj: DataObj = {
     uid: 'zJZCVjAwLFNBaPch3JdrNvDktWn1',
   },
   zJd07kcIKWOKmd93CLriha2Oavl2: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-10-02',
     longestStreak: 1,
@@ -1922,6 +2135,7 @@ export const dataObj: DataObj = {
     uid: 'zJd07kcIKWOKmd93CLriha2Oavl2',
   },
   zJrdlsqpVXeFdH2dpCqstY2qpcn2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1931,6 +2145,7 @@ export const dataObj: DataObj = {
     uid: 'zJrdlsqpVXeFdH2dpCqstY2qpcn2',
   },
   zJsI8m74uqOI3el3EM1u64kbUWd2: {
+    rank:0,
     bananas: 36750,
     lastDayPlayed: '2018-07-21',
     longestStreak: 18,
@@ -1940,6 +2155,7 @@ export const dataObj: DataObj = {
     uid: 'zJsI8m74uqOI3el3EM1u64kbUWd2',
   },
   zJwSgKip9kRVcRjSITq4lqTpWdu1: {
+    rank:0,
     bananas: 3500,
     lastDayPlayed: '2019-01-13',
     longestStreak: 2,
@@ -1949,6 +2165,7 @@ export const dataObj: DataObj = {
     uid: 'zJwSgKip9kRVcRjSITq4lqTpWdu1',
   },
   zJxYshgB1kQKDh3YWYSulBJaD9j1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1958,6 +2175,7 @@ export const dataObj: DataObj = {
     uid: 'zJxYshgB1kQKDh3YWYSulBJaD9j1',
   },
   zK4b2oA3RtNc17tmhgOXtFtowmj2: {
+    rank:0,
     bananas: 400,
     lastDayPlayed: '2018-08-02',
     longestStreak: 1,
@@ -1967,6 +2185,7 @@ export const dataObj: DataObj = {
     uid: 'zK4b2oA3RtNc17tmhgOXtFtowmj2',
   },
   zKAY3Szf5OOJp91wl9aryqxGlcB3: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1976,6 +2195,7 @@ export const dataObj: DataObj = {
     uid: 'zKAY3Szf5OOJp91wl9aryqxGlcB3',
   },
   zKBUVLdFl1U1BPVlPjNCxcmmc8d2: {
+    rank:0,
     bananas: 350,
     lastDayPlayed: '2018-04-08',
     longestStreak: 1,
@@ -1985,6 +2205,7 @@ export const dataObj: DataObj = {
     uid: 'zKBUVLdFl1U1BPVlPjNCxcmmc8d2',
   },
   zKKayNTJTtX0ZgB1lofcRmB7mR02: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -1994,6 +2215,7 @@ export const dataObj: DataObj = {
     uid: 'zKKayNTJTtX0ZgB1lofcRmB7mR02',
   },
   zKXYNEauePg0xmrt7qh3WRCnaI13: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2003,6 +2225,7 @@ export const dataObj: DataObj = {
     uid: 'zKXYNEauePg0xmrt7qh3WRCnaI13',
   },
   zKbiDxyn9je7BKZSxKta8tMF2Ej2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2012,6 +2235,7 @@ export const dataObj: DataObj = {
     uid: 'zKbiDxyn9je7BKZSxKta8tMF2Ej2',
   },
   zKhwgOO4oxTDgLnp7QVRyVmHSs52: {
+    rank:0,
     bananas: 500,
     lastDayPlayed: '2018-07-19',
     longestStreak: 1,
@@ -2021,6 +2245,7 @@ export const dataObj: DataObj = {
     uid: 'zKhwgOO4oxTDgLnp7QVRyVmHSs52',
   },
   zKzINOTR5thnGXqQBn7nCfaNdrk1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2030,6 +2255,7 @@ export const dataObj: DataObj = {
     uid: 'zKzINOTR5thnGXqQBn7nCfaNdrk1',
   },
   zLCrcse9mORX55gQvDuA3aPqkCk2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2039,6 +2265,7 @@ export const dataObj: DataObj = {
     uid: 'zLCrcse9mORX55gQvDuA3aPqkCk2',
   },
   zLQewEqgirTGK4P4Fn4qW8dbR4l2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2048,6 +2275,7 @@ export const dataObj: DataObj = {
     uid: 'zLQewEqgirTGK4P4Fn4qW8dbR4l2',
   },
   zLWdOBsFsebwGbvBkxTJdyobC6C2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2057,6 +2285,7 @@ export const dataObj: DataObj = {
     uid: 'zLWdOBsFsebwGbvBkxTJdyobC6C2',
   },
   zLYinz5lkoaurRotKJKokygFrRF3: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2019-01-11',
     longestStreak: 1,
@@ -2066,6 +2295,7 @@ export const dataObj: DataObj = {
     uid: 'zLYinz5lkoaurRotKJKokygFrRF3',
   },
   zLdEHuDuhocowsb9QbZAVnUAjVC2: {
+    rank:0,
     bananas: 550,
     lastDayPlayed: '2018-07-31',
     longestStreak: 1,
@@ -2075,6 +2305,7 @@ export const dataObj: DataObj = {
     uid: 'zLdEHuDuhocowsb9QbZAVnUAjVC2',
   },
   zLgRJcqWC4eG1SCpqimIiIaALQv2: {
+    rank:0,
     bananas: 300,
     lastDayPlayed: '2018-09-30',
     longestStreak: 1,
@@ -2084,6 +2315,7 @@ export const dataObj: DataObj = {
     uid: 'zLgRJcqWC4eG1SCpqimIiIaALQv2',
   },
   zLlxeBk5X1RGxyyBaLpTqJ77X433: {
+    rank:0,
     bananas: 5900,
     lastDayPlayed: '2018-07-12',
     longestStreak: 5,
@@ -2093,6 +2325,7 @@ export const dataObj: DataObj = {
     uid: 'zLlxeBk5X1RGxyyBaLpTqJ77X433',
   },
   zLuptOs5wSQLsypAlmcgvgI4BP32: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2102,6 +2335,7 @@ export const dataObj: DataObj = {
     uid: 'zLuptOs5wSQLsypAlmcgvgI4BP32',
   },
   zLv6C6sUCGZkPzMc8VDKKOtVXuq2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2111,6 +2345,7 @@ export const dataObj: DataObj = {
     uid: 'zLv6C6sUCGZkPzMc8VDKKOtVXuq2',
   },
   zMLJQx3m37TMuLiiEANvoiv1Hme2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2120,6 +2355,7 @@ export const dataObj: DataObj = {
     uid: 'zMLJQx3m37TMuLiiEANvoiv1Hme2',
   },
   zMMRlxJ3PpQTYav5grtrAFaGu6q1: {
+    rank:0,
     bananas: 1200,
     lastDayPlayed: '2018-07-27',
     longestStreak: 1,
@@ -2129,6 +2365,7 @@ export const dataObj: DataObj = {
     uid: 'zMMRlxJ3PpQTYav5grtrAFaGu6q1',
   },
   zMWjnTK6aVMFkMIDXkHFivDWf8D3: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2138,6 +2375,7 @@ export const dataObj: DataObj = {
     uid: 'zMWjnTK6aVMFkMIDXkHFivDWf8D3',
   },
   zMX3YaQJAdfxV7yooU8ghtTq6g43: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2147,6 +2385,7 @@ export const dataObj: DataObj = {
     uid: 'zMX3YaQJAdfxV7yooU8ghtTq6g43',
   },
   zMtWeaaEQjZL5IN8PrrcgAmPXVG3: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-09-14',
     longestStreak: 1,
@@ -2156,6 +2395,7 @@ export const dataObj: DataObj = {
     uid: 'zMtWeaaEQjZL5IN8PrrcgAmPXVG3',
   },
   zN4Pm5NhDMMEHKbLXu7OZs2pYVv2: {
+    rank:0,
     bananas: 1750,
     lastDayPlayed: '2018-12-16',
     longestStreak: 1,
@@ -2165,6 +2405,7 @@ export const dataObj: DataObj = {
     uid: 'zN4Pm5NhDMMEHKbLXu7OZs2pYVv2',
   },
   zN8bL9jWO1V4i1cZKP69A5nWd4s2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2174,6 +2415,7 @@ export const dataObj: DataObj = {
     uid: 'zN8bL9jWO1V4i1cZKP69A5nWd4s2',
   },
   zNGGIF3qVIMlD82iOpRU5ACYp8J2: {
+    rank:0,
     bananas: 800,
     lastDayPlayed: '2018-10-27',
     longestStreak: 2,
@@ -2183,6 +2425,7 @@ export const dataObj: DataObj = {
     uid: 'zNGGIF3qVIMlD82iOpRU5ACYp8J2',
   },
   zNHtdGIRiYTUkWxiTiUUCcGQbrg1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2192,6 +2435,7 @@ export const dataObj: DataObj = {
     uid: 'zNHtdGIRiYTUkWxiTiUUCcGQbrg1',
   },
   zNWZPaLzzeRqFNCGma8hoA4aYLW2: {
+    rank:0,
     bananas: 300,
     lastDayPlayed: '2018-12-30',
     longestStreak: 2,
@@ -2201,6 +2445,7 @@ export const dataObj: DataObj = {
     uid: 'zNWZPaLzzeRqFNCGma8hoA4aYLW2',
   },
   zOBey4tG5WWbykSiCH1CcZ2ONdI2: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-09-17',
     longestStreak: 1,
@@ -2210,6 +2455,7 @@ export const dataObj: DataObj = {
     uid: 'zOBey4tG5WWbykSiCH1CcZ2ONdI2',
   },
   zOCMOcl3dKfgnJFvaS1Tk9Ifq3A3: {
+    rank:0,
     bananas: 11250,
     lastDayPlayed: '2019-01-29',
     longestStreak: 4,
@@ -2219,6 +2465,7 @@ export const dataObj: DataObj = {
     uid: 'zOCMOcl3dKfgnJFvaS1Tk9Ifq3A3',
   },
   zOFbVe77EfXFcktmpVbrWBJ35ei1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2228,6 +2475,7 @@ export const dataObj: DataObj = {
     uid: 'zOFbVe77EfXFcktmpVbrWBJ35ei1',
   },
   zOGjEKyWpmTZhv60RVxxw6OJbig2: {
+    rank:0,
     bananas: 550,
     lastDayPlayed: '2018-09-28',
     longestStreak: 3,
@@ -2237,6 +2485,7 @@ export const dataObj: DataObj = {
     uid: 'zOGjEKyWpmTZhv60RVxxw6OJbig2',
   },
   zOKzuWGBUVWRrTxyEHgTKc4gin32: {
+    rank:0,
     bananas: 6200,
     lastDayPlayed: '2018-12-23',
     longestStreak: 2,
@@ -2246,6 +2495,7 @@ export const dataObj: DataObj = {
     uid: 'zOKzuWGBUVWRrTxyEHgTKc4gin32',
   },
   zOT2HhmzJnSv7TFS2R4psgRkcYa2: {
+    rank:0,
     bananas: 400,
     lastDayPlayed: '2019-01-08',
     longestStreak: 1,
@@ -2255,6 +2505,7 @@ export const dataObj: DataObj = {
     uid: 'zOT2HhmzJnSv7TFS2R4psgRkcYa2',
   },
   zOkoatF19QU1f940h0aInWAgHBh1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2264,6 +2515,7 @@ export const dataObj: DataObj = {
     uid: 'zOkoatF19QU1f940h0aInWAgHBh1',
   },
   zOlFL1qXE4caH2J7nJVqcw0YvRH3: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2273,6 +2525,7 @@ export const dataObj: DataObj = {
     uid: 'zOlFL1qXE4caH2J7nJVqcw0YvRH3',
   },
   zOoCrjyLMVZkh4vTfw2v1NE1iHu1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2282,6 +2535,7 @@ export const dataObj: DataObj = {
     uid: 'zOoCrjyLMVZkh4vTfw2v1NE1iHu1',
   },
   zOztg0xHJwN2GSHO9XSFAPvTl7E2: {
+    rank:0,
     bananas: 27800,
     lastDayPlayed: '2018-12-30',
     longestStreak: 7,
@@ -2291,6 +2545,7 @@ export const dataObj: DataObj = {
     uid: 'zOztg0xHJwN2GSHO9XSFAPvTl7E2',
   },
   zPWOJtKXT7b6I4LA5Yfh1YlZBog1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2300,6 +2555,7 @@ export const dataObj: DataObj = {
     uid: 'zPWOJtKXT7b6I4LA5Yfh1YlZBog1',
   },
   zPctgFebBPMzQRsWoglpcdJsn052: {
+    rank:0,
     bananas: 1700,
     lastDayPlayed: '2018-10-15',
     longestStreak: 1,
@@ -2309,6 +2565,7 @@ export const dataObj: DataObj = {
     uid: 'zPctgFebBPMzQRsWoglpcdJsn052',
   },
   zPtciIUpjbWsrQ7Pw3xDiJWk6r22: {
+    rank:0,
     bananas: 500,
     lastDayPlayed: '2018-10-14',
     longestStreak: 1,
@@ -2318,6 +2575,7 @@ export const dataObj: DataObj = {
     uid: 'zPtciIUpjbWsrQ7Pw3xDiJWk6r22',
   },
   zQ4lspp12aMTh9PyiqdrfxzQpv82: {
+    rank:0,
     bananas: 2050,
     lastDayPlayed: '2018-09-02',
     longestStreak: 1,
@@ -2327,6 +2585,7 @@ export const dataObj: DataObj = {
     uid: 'zQ4lspp12aMTh9PyiqdrfxzQpv82',
   },
   zQAiRxlPXrMmvjrscwmEHDuNQ942: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-05-16',
     longestStreak: 1,
@@ -2336,6 +2595,7 @@ export const dataObj: DataObj = {
     uid: 'zQAiRxlPXrMmvjrscwmEHDuNQ942',
   },
   zQEewfi1FvNNuSPKdgIU4Ke4lS32: {
+    rank:0,
     bananas: 750,
     lastDayPlayed: '2018-10-13',
     longestStreak: 1,
@@ -2345,6 +2605,7 @@ export const dataObj: DataObj = {
     uid: 'zQEewfi1FvNNuSPKdgIU4Ke4lS32',
   },
   zQH10NTZfYaXACdiF3V6hd7Ahn93: {
+    rank:0,
     bananas: 19500,
     lastDayPlayed: '2019-02-02',
     longestStreak: 9,
@@ -2354,6 +2615,7 @@ export const dataObj: DataObj = {
     uid: 'zQH10NTZfYaXACdiF3V6hd7Ahn93',
   },
   zQHqAv92CPNkIHAE1W9zxHfhTn92: {
+    rank:0,
     bananas: 2750,
     lastDayPlayed: '2018-10-05',
     longestStreak: 2,
@@ -2363,6 +2625,7 @@ export const dataObj: DataObj = {
     uid: 'zQHqAv92CPNkIHAE1W9zxHfhTn92',
   },
   zQZEYd9XNGggvGd5f598YLDFpYP2: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-09-09',
     longestStreak: 1,
@@ -2372,6 +2635,7 @@ export const dataObj: DataObj = {
     uid: 'zQZEYd9XNGggvGd5f598YLDFpYP2',
   },
   zQrMB9icJLWED4wB9or4RMz14gG2: {
+    rank:0,
     bananas: 1250,
     lastDayPlayed: '2018-05-09',
     longestStreak: 1,
@@ -2381,6 +2645,7 @@ export const dataObj: DataObj = {
     uid: 'zQrMB9icJLWED4wB9or4RMz14gG2',
   },
   zQwozqzl6oMAjMcB9jcKWYaq2U43: {
+    rank:0,
     bananas: 1350,
     lastDayPlayed: '2018-04-26',
     longestStreak: 3,
@@ -2390,6 +2655,7 @@ export const dataObj: DataObj = {
     uid: 'zQwozqzl6oMAjMcB9jcKWYaq2U43',
   },
   zQxkk8EsWYd7HVJ0ahedDjeCMM53: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2399,6 +2665,7 @@ export const dataObj: DataObj = {
     uid: 'zQxkk8EsWYd7HVJ0ahedDjeCMM53',
   },
   zR1E2SDs2If6cBThAx97lDsnVPG3: {
+    rank:0,
     bananas: 950,
     lastDayPlayed: '2019-01-06',
     longestStreak: 1,
@@ -2408,6 +2675,7 @@ export const dataObj: DataObj = {
     uid: 'zR1E2SDs2If6cBThAx97lDsnVPG3',
   },
   zRC7GU6alOTXW94wUWJt5jZaHgz2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2417,6 +2685,7 @@ export const dataObj: DataObj = {
     uid: 'zRC7GU6alOTXW94wUWJt5jZaHgz2',
   },
   zRa6fy2hvtYWXkKI3jKoASOqmd32: {
+    rank:0,
     bananas: 8300,
     lastDayPlayed: '2019-01-25',
     longestStreak: 4,
@@ -2426,6 +2695,7 @@ export const dataObj: DataObj = {
     uid: 'zRa6fy2hvtYWXkKI3jKoASOqmd32',
   },
   zRfDydbQCWTaG6d0NJtj4ToJJnG3: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2435,6 +2705,7 @@ export const dataObj: DataObj = {
     uid: 'zRfDydbQCWTaG6d0NJtj4ToJJnG3',
   },
   zRkRzsJkq3QNBn5Xdz0lKlqCV5D2: {
+    rank:0,
     bananas: 400,
     lastDayPlayed: '2018-10-17',
     longestStreak: 1,
@@ -2444,6 +2715,7 @@ export const dataObj: DataObj = {
     uid: 'zRkRzsJkq3QNBn5Xdz0lKlqCV5D2',
   },
   zRqqwaDC6vh2z0cvv5IDGV26r2H2: {
+    rank:0,
     bananas: 750,
     lastDayPlayed: '2018-11-20',
     longestStreak: 1,
@@ -2453,6 +2725,7 @@ export const dataObj: DataObj = {
     uid: 'zRqqwaDC6vh2z0cvv5IDGV26r2H2',
   },
   zRvuxmo3BDXIozG7W4np2glYsct1: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-11-28',
     longestStreak: 1,
@@ -2462,6 +2735,7 @@ export const dataObj: DataObj = {
     uid: 'zRvuxmo3BDXIozG7W4np2glYsct1',
   },
   zS30iGvPtNhIjywkOdv5bZpd4fp1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2471,6 +2745,7 @@ export const dataObj: DataObj = {
     uid: 'zS30iGvPtNhIjywkOdv5bZpd4fp1',
   },
   zSDDclV6EvQWMRHyVWfF17INtDw2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2480,6 +2755,7 @@ export const dataObj: DataObj = {
     uid: 'zSDDclV6EvQWMRHyVWfF17INtDw2',
   },
   zSSZ7xXHC8fq0KsLRzsQOf7Qgww1: {
+    rank:0,
     bananas: 500,
     lastDayPlayed: '2018-05-17',
     longestStreak: 1,
@@ -2489,6 +2765,7 @@ export const dataObj: DataObj = {
     uid: 'zSSZ7xXHC8fq0KsLRzsQOf7Qgww1',
   },
   zSvyE4MxRaPrIC3mGTWmwCbwogz1: {
+    rank:0,
     bananas: 600,
     lastDayPlayed: '2018-12-11',
     longestStreak: 1,
@@ -2498,6 +2775,7 @@ export const dataObj: DataObj = {
     uid: 'zSvyE4MxRaPrIC3mGTWmwCbwogz1',
   },
   zT75hF7aOCdPsEaU5tdHrVH9zDy2: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-09-15',
     longestStreak: 1,
@@ -2507,6 +2785,7 @@ export const dataObj: DataObj = {
     uid: 'zT75hF7aOCdPsEaU5tdHrVH9zDy2',
   },
   zT7kG3FtAISfJm51kbOvMIbLAsB2: {
+    rank:0,
     bananas: 150,
     lastDayPlayed: '2019-01-31',
     longestStreak: 1,
@@ -2516,6 +2795,7 @@ export const dataObj: DataObj = {
     uid: 'zT7kG3FtAISfJm51kbOvMIbLAsB2',
   },
   zTS52kVamBgVt58lw1XqZsPTRL72: {
+    rank:0,
     bananas: 2300,
     lastDayPlayed: '2018-12-10',
     longestStreak: 2,
@@ -2525,6 +2805,7 @@ export const dataObj: DataObj = {
     uid: 'zTS52kVamBgVt58lw1XqZsPTRL72',
   },
   zTbYx51ITTZ1YIUF9htjsWNz0wd2: {
+    rank:0,
     bananas: 550,
     lastDayPlayed: '2018-09-14',
     longestStreak: 1,
@@ -2534,6 +2815,7 @@ export const dataObj: DataObj = {
     uid: 'zTbYx51ITTZ1YIUF9htjsWNz0wd2',
   },
   zTeJqnuxBXaL4tnZSjhnJCTpfcq2: {
+    rank:0,
     bananas: 400,
     lastDayPlayed: '2018-08-06',
     longestStreak: 1,
@@ -2543,6 +2825,7 @@ export const dataObj: DataObj = {
     uid: 'zTeJqnuxBXaL4tnZSjhnJCTpfcq2',
   },
   zU6sDK44MPTVxoMZQXvZUfkhbqs1: {
+    rank:0,
     bananas: 5400,
     lastDayPlayed: '2019-02-01',
     longestStreak: 4,
@@ -2552,6 +2835,7 @@ export const dataObj: DataObj = {
     uid: 'zU6sDK44MPTVxoMZQXvZUfkhbqs1',
   },
   zUK9LP7nA3PQkXOcdvrY7Y0av5o1: {
+    rank:0,
     bananas: 300,
     lastDayPlayed: '2019-01-17',
     longestStreak: 1,
@@ -2561,6 +2845,7 @@ export const dataObj: DataObj = {
     uid: 'zUK9LP7nA3PQkXOcdvrY7Y0av5o1',
   },
   zUMl5ddC5UbiXCatPEkNnb6c13S2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2570,6 +2855,7 @@ export const dataObj: DataObj = {
     uid: 'zUMl5ddC5UbiXCatPEkNnb6c13S2',
   },
   zUxEUspgw8ZJ9E2WCawV2hhsS1B2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2579,6 +2865,7 @@ export const dataObj: DataObj = {
     uid: 'zUxEUspgw8ZJ9E2WCawV2hhsS1B2',
   },
   zV0CUgyQl2bqFpna5UrYPml6fvv1: {
+    rank:0,
     bananas: 150,
     lastDayPlayed: '2019-01-10',
     longestStreak: 1,
@@ -2588,6 +2875,7 @@ export const dataObj: DataObj = {
     uid: 'zV0CUgyQl2bqFpna5UrYPml6fvv1',
   },
   zVOz7vTC7OPs3o1i8KjcmSs1Vr62: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2597,6 +2885,7 @@ export const dataObj: DataObj = {
     uid: 'zVOz7vTC7OPs3o1i8KjcmSs1Vr62',
   },
   zVnUWYbYFVXD3XkJfB0WfjFYEAs1: {
+    rank:0,
     bananas: 1150,
     lastDayPlayed: '2018-07-01',
     longestStreak: 1,
@@ -2606,6 +2895,7 @@ export const dataObj: DataObj = {
     uid: 'zVnUWYbYFVXD3XkJfB0WfjFYEAs1',
   },
   zWBhI5DGOue0AthFkYJmW5TUtcf2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2615,6 +2905,7 @@ export const dataObj: DataObj = {
     uid: 'zWBhI5DGOue0AthFkYJmW5TUtcf2',
   },
   zWGH5KOdNIYi5By0y2g4VyjEvZr1: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-07-22',
     longestStreak: 1,
@@ -2624,6 +2915,7 @@ export const dataObj: DataObj = {
     uid: 'zWGH5KOdNIYi5By0y2g4VyjEvZr1',
   },
   zWK5IYwCegT1TvDi0EGfrjRnFKu2: {
+    rank:0,
     bananas: 1450,
     lastDayPlayed: '2018-07-08',
     longestStreak: 1,
@@ -2633,6 +2925,7 @@ export const dataObj: DataObj = {
     uid: 'zWK5IYwCegT1TvDi0EGfrjRnFKu2',
   },
   zWPzss20Xpecs9tpiAESFOzNlpc2: {
+    rank:0,
     bananas: 2100,
     lastDayPlayed: '2018-06-24',
     longestStreak: 1,
@@ -2642,6 +2935,7 @@ export const dataObj: DataObj = {
     uid: 'zWPzss20Xpecs9tpiAESFOzNlpc2',
   },
   zWUNAGikuSXtKBYE7S9QRDfCb213: {
+    rank:0,
     bananas: 2750,
     lastDayPlayed: '2019-01-28',
     longestStreak: 1,
@@ -2651,6 +2945,7 @@ export const dataObj: DataObj = {
     uid: 'zWUNAGikuSXtKBYE7S9QRDfCb213',
   },
   zWiAkiP4xagr4IxcBVmPbaZHSjx2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2660,6 +2955,7 @@ export const dataObj: DataObj = {
     uid: 'zWiAkiP4xagr4IxcBVmPbaZHSjx2',
   },
   zXCjkTO8pXeNHZ3RHdIhrz6AfP33: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2669,6 +2965,7 @@ export const dataObj: DataObj = {
     uid: 'zXCjkTO8pXeNHZ3RHdIhrz6AfP33',
   },
   zXO2s8Ecv6RJ5QCryErIUzYY3DG2: {
+    rank:0,
     bananas: 450,
     lastDayPlayed: '2018-11-22',
     longestStreak: 1,
@@ -2678,6 +2975,7 @@ export const dataObj: DataObj = {
     uid: 'zXO2s8Ecv6RJ5QCryErIUzYY3DG2',
   },
   zXd2QaxtQiXcmDfsZcWmCQVorR23: {
+    rank:0,
     bananas: 600,
     lastDayPlayed: '2019-01-27',
     longestStreak: 1,
@@ -2687,6 +2985,7 @@ export const dataObj: DataObj = {
     uid: 'zXd2QaxtQiXcmDfsZcWmCQVorR23',
   },
   zY4BRhqbznboVOwBuEeLNJI0VN12: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-12-19',
     longestStreak: 1,
@@ -2696,6 +2995,7 @@ export const dataObj: DataObj = {
     uid: 'zY4BRhqbznboVOwBuEeLNJI0VN12',
   },
   zY7Ncew5ljQOb1nac0MkwvZ9r4n1: {
+    rank:0,
     bananas: 100,
     lastDayPlayed: '2018-11-05',
     longestStreak: 1,
@@ -2705,6 +3005,7 @@ export const dataObj: DataObj = {
     uid: 'zY7Ncew5ljQOb1nac0MkwvZ9r4n1',
   },
   zYHs2HIne6huhfoHTdJqKV0RwAc2: {
+    rank:0,
     bananas: 150,
     lastDayPlayed: '2018-12-20',
     longestStreak: 1,
@@ -2714,6 +3015,7 @@ export const dataObj: DataObj = {
     uid: 'zYHs2HIne6huhfoHTdJqKV0RwAc2',
   },
   zYPGJUJV3wY1jANnWacpxwsD7FJ2: {
+    rank:0,
     bananas: 4300,
     lastDayPlayed: '2018-10-31',
     longestStreak: 8,
@@ -2723,6 +3025,7 @@ export const dataObj: DataObj = {
     uid: 'zYPGJUJV3wY1jANnWacpxwsD7FJ2',
   },
   zYhHwn10AZUrIfheY7AbmngJrts1: {
+    rank:0,
     bananas: 1700,
     lastDayPlayed: '2019-02-10',
     longestStreak: 2,
@@ -2732,6 +3035,7 @@ export const dataObj: DataObj = {
     uid: 'zYhHwn10AZUrIfheY7AbmngJrts1',
   },
   zYp2Ll5UIUV1tCQogbvZdaTiqnz1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2741,6 +3045,7 @@ export const dataObj: DataObj = {
     uid: 'zYp2Ll5UIUV1tCQogbvZdaTiqnz1',
   },
   zZ5d4I5W9DMD49UD7XPHwnIU0BI2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2750,6 +3055,7 @@ export const dataObj: DataObj = {
     uid: 'zZ5d4I5W9DMD49UD7XPHwnIU0BI2',
   },
   zZ6B1PYdfLTrNpkV2DJ29rt1NNl1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2759,6 +3065,7 @@ export const dataObj: DataObj = {
     uid: 'zZ6B1PYdfLTrNpkV2DJ29rt1NNl1',
   },
   zZ85qbs9LvT55fdqEVc2JL4EOnh1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2768,6 +3075,7 @@ export const dataObj: DataObj = {
     uid: 'zZ85qbs9LvT55fdqEVc2JL4EOnh1',
   },
   zZCH3A12NpW3NSbEHc6SDLT5jLf1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2777,6 +3085,7 @@ export const dataObj: DataObj = {
     uid: 'zZCH3A12NpW3NSbEHc6SDLT5jLf1',
   },
   zZTD2HBl0afKeHy7cq7Grmh789S2: {
+    rank:0,
     bananas: 150,
     lastDayPlayed: '2018-12-25',
     longestStreak: 1,
@@ -2786,6 +3095,7 @@ export const dataObj: DataObj = {
     uid: 'zZTD2HBl0afKeHy7cq7Grmh789S2',
   },
   zZXSjas7BigmEk1NdO5CwJhoqtB2: {
+    rank:0,
     bananas: 400,
     lastDayPlayed: '2019-01-21',
     longestStreak: 1,
@@ -2795,6 +3105,7 @@ export const dataObj: DataObj = {
     uid: 'zZXSjas7BigmEk1NdO5CwJhoqtB2',
   },
   zZaolvrNMOVsZyrpVa7uS703x5m2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2804,6 +3115,7 @@ export const dataObj: DataObj = {
     uid: 'zZaolvrNMOVsZyrpVa7uS703x5m2',
   },
   zZchLvjDn6VZ0ToFxHbRwibINsC2: {
+    rank:0,
     bananas: 2050,
     lastDayPlayed: '2018-11-28',
     longestStreak: 1,
@@ -2813,6 +3125,7 @@ export const dataObj: DataObj = {
     uid: 'zZchLvjDn6VZ0ToFxHbRwibINsC2',
   },
   zZlPCfxxrURb3943SS8H1CO2n6B3: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2822,6 +3135,7 @@ export const dataObj: DataObj = {
     uid: 'zZlPCfxxrURb3943SS8H1CO2n6B3',
   },
   zZslrtbGXsW9MiDOtTKOGARBiYw2: {
+    rank:0,
     bananas: 3150,
     lastDayPlayed: '2018-09-05',
     longestStreak: 5,
@@ -2831,6 +3145,7 @@ export const dataObj: DataObj = {
     uid: 'zZslrtbGXsW9MiDOtTKOGARBiYw2',
   },
   za4RO2QU33bFTtMjOtKl4zoYJH82: {
+    rank:0,
     bananas: 600,
     lastDayPlayed: '2019-01-13',
     longestStreak: 1,
@@ -2840,6 +3155,7 @@ export const dataObj: DataObj = {
     uid: 'za4RO2QU33bFTtMjOtKl4zoYJH82',
   },
   zaOFZh3nRsPYGn9mz2OousEtlf92: {
+    rank:0,
     bananas: 350,
     lastDayPlayed: '2018-08-10',
     longestStreak: 1,
@@ -2849,6 +3165,7 @@ export const dataObj: DataObj = {
     uid: 'zaOFZh3nRsPYGn9mz2OousEtlf92',
   },
   zaOzvAEHgre8S2olYNfW4KlqbzQ2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2858,6 +3175,7 @@ export const dataObj: DataObj = {
     uid: 'zaOzvAEHgre8S2olYNfW4KlqbzQ2',
   },
   zaQ5tha7YgYkpkfEVbDFJxdEAlq2: {
+    rank:0,
     bananas: 1800,
     lastDayPlayed: '2018-04-17',
     longestStreak: 1,
@@ -2867,6 +3185,7 @@ export const dataObj: DataObj = {
     uid: 'zaQ5tha7YgYkpkfEVbDFJxdEAlq2',
   },
   zaiC2Tbl1KPeAuqZCyzCaYKfifl2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2876,6 +3195,7 @@ export const dataObj: DataObj = {
     uid: 'zaiC2Tbl1KPeAuqZCyzCaYKfifl2',
   },
   zauU890VQpRtH8bTLWIPMbf1ne42: {
+    rank:0,
     bananas: 300,
     lastDayPlayed: '2018-12-08',
     longestStreak: 1,
@@ -2885,6 +3205,7 @@ export const dataObj: DataObj = {
     uid: 'zauU890VQpRtH8bTLWIPMbf1ne42',
   },
   zauxp6KTucRpzvy5MsYxKidT2HO2: {
+    rank:0,
     bananas: 550,
     lastDayPlayed: '2018-11-06',
     longestStreak: 1,
@@ -2894,6 +3215,7 @@ export const dataObj: DataObj = {
     uid: 'zauxp6KTucRpzvy5MsYxKidT2HO2',
   },
   zayhZbpkubUaYzQ1nc50ZUkpPh42: {
+    rank:0,
     bananas: 3450,
     lastDayPlayed: '2018-09-02',
     longestStreak: 1,
@@ -2903,6 +3225,7 @@ export const dataObj: DataObj = {
     uid: 'zayhZbpkubUaYzQ1nc50ZUkpPh42',
   },
   zazmCwX1X2YmUaLk8VyeVco4Ffq2: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-05-21',
     longestStreak: 1,
@@ -2912,6 +3235,7 @@ export const dataObj: DataObj = {
     uid: 'zazmCwX1X2YmUaLk8VyeVco4Ffq2',
   },
   zb6n0pAPiIa72nI3R5tqa502Y2q1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2921,6 +3245,7 @@ export const dataObj: DataObj = {
     uid: 'zb6n0pAPiIa72nI3R5tqa502Y2q1',
   },
   zbF2NYNSrlWbmXL0RRQxlSq2q9e2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2930,6 +3255,7 @@ export const dataObj: DataObj = {
     uid: 'zbF2NYNSrlWbmXL0RRQxlSq2q9e2',
   },
   zbLJwTMQDcYnJX0V8OhQ1ABORn43: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2939,6 +3265,7 @@ export const dataObj: DataObj = {
     uid: 'zbLJwTMQDcYnJX0V8OhQ1ABORn43',
   },
   zbfLNxJifFUm8KYVnmmKIQ7s52u1: {
+    rank:0,
     bananas: 150,
     lastDayPlayed: '2018-08-15',
     longestStreak: 1,
@@ -2948,6 +3275,7 @@ export const dataObj: DataObj = {
     uid: 'zbfLNxJifFUm8KYVnmmKIQ7s52u1',
   },
   zbsidJ4UQ2Vk2VzEkNtA9Saes1i2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2957,6 +3285,7 @@ export const dataObj: DataObj = {
     uid: 'zbsidJ4UQ2Vk2VzEkNtA9Saes1i2',
   },
   zbvHNGMUZBPHhrbyeNIcctrGzih1: {
+    rank:0,
     bananas: 1200,
     lastDayPlayed: '2018-12-06',
     longestStreak: 1,
@@ -2966,6 +3295,7 @@ export const dataObj: DataObj = {
     uid: 'zbvHNGMUZBPHhrbyeNIcctrGzih1',
   },
   zcCcOlHtboSQ3fwICpVepqQlkm93: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2975,6 +3305,7 @@ export const dataObj: DataObj = {
     uid: 'zcCcOlHtboSQ3fwICpVepqQlkm93',
   },
   zcCeraxRtBYLosTVaQBcTL5h2ny2: {
+    rank:0,
     bananas: 150,
     lastDayPlayed: '2018-11-05',
     longestStreak: 1,
@@ -2984,6 +3315,7 @@ export const dataObj: DataObj = {
     uid: 'zcCeraxRtBYLosTVaQBcTL5h2ny2',
   },
   zcULbtEmDJg14t8XlfRslWikwfh2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -2993,6 +3325,7 @@ export const dataObj: DataObj = {
     uid: 'zcULbtEmDJg14t8XlfRslWikwfh2',
   },
   zcXlyrVQPoVHo6Tq41UpkLgWi3U2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3002,6 +3335,7 @@ export const dataObj: DataObj = {
     uid: 'zcXlyrVQPoVHo6Tq41UpkLgWi3U2',
   },
   zcY67ZtXboZE4qaHNYagDVxyDIi2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3011,6 +3345,7 @@ export const dataObj: DataObj = {
     uid: 'zcY67ZtXboZE4qaHNYagDVxyDIi2',
   },
   zcaao084uXVWMHnJe9vtI9N4Yhc2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3020,6 +3355,7 @@ export const dataObj: DataObj = {
     uid: 'zcaao084uXVWMHnJe9vtI9N4Yhc2',
   },
   zciubUNL2MThbVdMZfTbIo0tibh1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3029,6 +3365,7 @@ export const dataObj: DataObj = {
     uid: 'zciubUNL2MThbVdMZfTbIo0tibh1',
   },
   zcpoytOjNGgA0tHSKcVdi6sMLZ72: {
+    rank:0,
     bananas: 800,
     lastDayPlayed: '2018-09-18',
     longestStreak: 1,
@@ -3038,6 +3375,7 @@ export const dataObj: DataObj = {
     uid: 'zcpoytOjNGgA0tHSKcVdi6sMLZ72',
   },
   zcwBLvrzzmd0euqT9JbaRXbLTOd2: {
+    rank:0,
     bananas: 300,
     lastDayPlayed: '2018-11-06',
     longestStreak: 1,
@@ -3047,6 +3385,7 @@ export const dataObj: DataObj = {
     uid: 'zcwBLvrzzmd0euqT9JbaRXbLTOd2',
   },
   zcx9vIKIvrUXdPd7sBdldeyTjAE3: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3056,6 +3395,7 @@ export const dataObj: DataObj = {
     uid: 'zcx9vIKIvrUXdPd7sBdldeyTjAE3',
   },
   zd3FsnKRmpd8fSI4AwqlLtUtxE12: {
+    rank:0,
     bananas: 400,
     lastDayPlayed: '2018-12-08',
     longestStreak: 1,
@@ -3065,6 +3405,7 @@ export const dataObj: DataObj = {
     uid: 'zd3FsnKRmpd8fSI4AwqlLtUtxE12',
   },
   zd3ummBFI7c0BVdtoMWIj2jWr132: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3074,6 +3415,7 @@ export const dataObj: DataObj = {
     uid: 'zd3ummBFI7c0BVdtoMWIj2jWr132',
   },
   zdP6H705EDduSypLwd8H7hNJ7dn2: {
+    rank:0,
     bananas: 300,
     lastDayPlayed: '2018-09-19',
     longestStreak: 1,
@@ -3083,6 +3425,7 @@ export const dataObj: DataObj = {
     uid: 'zdP6H705EDduSypLwd8H7hNJ7dn2',
   },
   zdTqbp6rT1cuPpxfYqa1ec70dGm2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3092,6 +3435,7 @@ export const dataObj: DataObj = {
     uid: 'zdTqbp6rT1cuPpxfYqa1ec70dGm2',
   },
   zdUOGBiRneeR8IEi1ylLEOxcUsG3: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3101,6 +3445,7 @@ export const dataObj: DataObj = {
     uid: 'zdUOGBiRneeR8IEi1ylLEOxcUsG3',
   },
   zdba6S0iAnZH5Q79QKbQ5U8CBds2: {
+    rank:0,
     bananas: 150,
     lastDayPlayed: '2018-06-27',
     longestStreak: 1,
@@ -3110,6 +3455,7 @@ export const dataObj: DataObj = {
     uid: 'zdba6S0iAnZH5Q79QKbQ5U8CBds2',
   },
   zdfxKWbOeYffQJ0fFjrcHswIqbj1: {
+    rank:0,
     bananas: 400,
     lastDayPlayed: '2019-01-26',
     longestStreak: 1,
@@ -3119,6 +3465,7 @@ export const dataObj: DataObj = {
     uid: 'zdfxKWbOeYffQJ0fFjrcHswIqbj1',
   },
   zdtY3H5wL6TIUnrc8EZUgAAPBIq2: {
+    rank:0,
     bananas: 150,
     lastDayPlayed: '2018-11-29',
     longestStreak: 1,
@@ -3128,6 +3475,7 @@ export const dataObj: DataObj = {
     uid: 'zdtY3H5wL6TIUnrc8EZUgAAPBIq2',
   },
   ze0o6YA2dwM9ETD5Nlm6M7GfEOh1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3137,6 +3485,7 @@ export const dataObj: DataObj = {
     uid: 'ze0o6YA2dwM9ETD5Nlm6M7GfEOh1',
   },
   ze69ZeQGFsbpiF4itrhR4sPS6At2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3146,6 +3495,7 @@ export const dataObj: DataObj = {
     uid: 'ze69ZeQGFsbpiF4itrhR4sPS6At2',
   },
   zeXVlvonVMg3cU6YSjE1Z0fgMMc2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3155,6 +3505,7 @@ export const dataObj: DataObj = {
     uid: 'zeXVlvonVMg3cU6YSjE1Z0fgMMc2',
   },
   zei1g8BWGGcpUrba51PQBhcpJTj1: {
+    rank:0,
     bananas: 150,
     lastDayPlayed: '2018-12-18',
     longestStreak: 1,
@@ -3164,6 +3515,7 @@ export const dataObj: DataObj = {
     uid: 'zei1g8BWGGcpUrba51PQBhcpJTj1',
   },
   zepJ8wD8lBaDAPxoFTYSihgi02j2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3173,6 +3525,7 @@ export const dataObj: DataObj = {
     uid: 'zepJ8wD8lBaDAPxoFTYSihgi02j2',
   },
   zeqISWrwIVPmG1dqQb1C8AfRF003: {
+    rank:0,
     bananas: 400,
     lastDayPlayed: '2018-06-14',
     longestStreak: 1,
@@ -3182,6 +3535,7 @@ export const dataObj: DataObj = {
     uid: 'zeqISWrwIVPmG1dqQb1C8AfRF003',
   },
   zerlafxSljOcI1v0V8GRfZo6YzL2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3191,6 +3545,7 @@ export const dataObj: DataObj = {
     uid: 'zerlafxSljOcI1v0V8GRfZo6YzL2',
   },
   zeyFYtQJxrN7aUbyervJ6dsVyav2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3200,6 +3555,7 @@ export const dataObj: DataObj = {
     uid: 'zeyFYtQJxrN7aUbyervJ6dsVyav2',
   },
   zezoLzFXW4RtQrwL7YW1lNbamra2: {
+    rank:0,
     bananas: 150,
     lastDayPlayed: '2018-10-27',
     longestStreak: 1,
@@ -3209,6 +3565,7 @@ export const dataObj: DataObj = {
     uid: 'zezoLzFXW4RtQrwL7YW1lNbamra2',
   },
   zfFtR7UEXcWxcmVH1iXnw1dGTBt1: {
+    rank:0,
     bananas: 150,
     lastDayPlayed: '2018-04-28',
     longestStreak: 1,
@@ -3218,6 +3575,7 @@ export const dataObj: DataObj = {
     uid: 'zfFtR7UEXcWxcmVH1iXnw1dGTBt1',
   },
   zfSlEgfjxMVpxMglLE1E6n5nckA2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3227,6 +3585,7 @@ export const dataObj: DataObj = {
     uid: 'zfSlEgfjxMVpxMglLE1E6n5nckA2',
   },
   zfVFzljQ9jX6dVJ28FM8EkC8IAg2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3236,6 +3595,7 @@ export const dataObj: DataObj = {
     uid: 'zfVFzljQ9jX6dVJ28FM8EkC8IAg2',
   },
   zfX5pLHUsUQyLSwnabZc1Oc0OHm2: {
+    rank:0,
     bananas: 400,
     lastDayPlayed: '2018-12-03',
     longestStreak: 1,
@@ -3245,6 +3605,7 @@ export const dataObj: DataObj = {
     uid: 'zfX5pLHUsUQyLSwnabZc1Oc0OHm2',
   },
   zfaMiy1mQubdryH0iJUvpGkF0MJ3: {
+    rank:0,
     bananas: 600,
     lastDayPlayed: '2018-04-22',
     longestStreak: 1,
@@ -3254,6 +3615,7 @@ export const dataObj: DataObj = {
     uid: 'zfaMiy1mQubdryH0iJUvpGkF0MJ3',
   },
   zffgmofbCQeMIvbzD783dFL7NhC3: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3263,6 +3625,7 @@ export const dataObj: DataObj = {
     uid: 'zffgmofbCQeMIvbzD783dFL7NhC3',
   },
   zfhA4TxCQvXvPYUGR2U6yifugHw2: {
+    rank:0,
     bananas: 4200,
     lastDayPlayed: '2018-12-02',
     longestStreak: 2,
@@ -3272,6 +3635,7 @@ export const dataObj: DataObj = {
     uid: 'zfhA4TxCQvXvPYUGR2U6yifugHw2',
   },
   zflVgD0XB6dgYXoMSE6nwuxJw2K2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3281,6 +3645,7 @@ export const dataObj: DataObj = {
     uid: 'zflVgD0XB6dgYXoMSE6nwuxJw2K2',
   },
   zfwA2x8m3BgkLD8hGCw4pOshwHr1: {
+    rank:0,
     bananas: 100,
     lastDayPlayed: '2018-05-06',
     longestStreak: 1,
@@ -3290,6 +3655,7 @@ export const dataObj: DataObj = {
     uid: 'zfwA2x8m3BgkLD8hGCw4pOshwHr1',
   },
   zg7y12X3gCZeFfKGT4ixVxRhxKz2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3299,6 +3665,7 @@ export const dataObj: DataObj = {
     uid: 'zg7y12X3gCZeFfKGT4ixVxRhxKz2',
   },
   zgIlX1riWkbSXy35ApzlKq38XXY2: {
+    rank:0,
     bananas: 550,
     lastDayPlayed: '2019-01-05',
     longestStreak: 2,
@@ -3308,6 +3675,7 @@ export const dataObj: DataObj = {
     uid: 'zgIlX1riWkbSXy35ApzlKq38XXY2',
   },
   zgSXndkNUOMPmB47uSO6OHTQLJe2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3317,6 +3685,7 @@ export const dataObj: DataObj = {
     uid: 'zgSXndkNUOMPmB47uSO6OHTQLJe2',
   },
   zgd3dQQcYoferMuzilX8OzPLiqG3: {
+    rank:0,
     bananas: 2400,
     lastDayPlayed: '2018-11-28',
     longestStreak: 2,
@@ -3326,6 +3695,7 @@ export const dataObj: DataObj = {
     uid: 'zgd3dQQcYoferMuzilX8OzPLiqG3',
   },
   zghUw5XBDkNoGC25zsLObiLCQiZ2: {
+    rank:0,
     bananas: 100,
     lastDayPlayed: '2018-03-23',
     longestStreak: 1,
@@ -3335,6 +3705,7 @@ export const dataObj: DataObj = {
     uid: 'zghUw5XBDkNoGC25zsLObiLCQiZ2',
   },
   zgjeBDbDyHO0XlGcF6p30THLr3h2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3344,6 +3715,7 @@ export const dataObj: DataObj = {
     uid: 'zgjeBDbDyHO0XlGcF6p30THLr3h2',
   },
   zguCfZdFAwN7AFLK8lSx65TnXEy2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3353,6 +3725,7 @@ export const dataObj: DataObj = {
     uid: 'zguCfZdFAwN7AFLK8lSx65TnXEy2',
   },
   zhQxJ9631ATtN5vwFBd8ThlNJos1: {
+    rank:0,
     bananas: 1100,
     lastDayPlayed: '2018-12-22',
     longestStreak: 2,
@@ -3362,6 +3735,7 @@ export const dataObj: DataObj = {
     uid: 'zhQxJ9631ATtN5vwFBd8ThlNJos1',
   },
   zhb6AgcDqAeWfXImwGQyKrjSjJo2: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-09-29',
     longestStreak: 1,
@@ -3371,6 +3745,7 @@ export const dataObj: DataObj = {
     uid: 'zhb6AgcDqAeWfXImwGQyKrjSjJo2',
   },
   zhp1COgptLWv7yyJQ8Wn2oIWRb02: {
+    rank:0,
     bananas: 1900,
     lastDayPlayed: '2018-07-12',
     longestStreak: 2,
@@ -3380,6 +3755,7 @@ export const dataObj: DataObj = {
     uid: 'zhp1COgptLWv7yyJQ8Wn2oIWRb02',
   },
   zhpbWXHulcYMkqySC2SQOnTnqf53: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3389,6 +3765,7 @@ export const dataObj: DataObj = {
     uid: 'zhpbWXHulcYMkqySC2SQOnTnqf53',
   },
   zhx16l0A9lh8VjNJ1b5H7Dpi9GA2: {
+    rank:0,
     bananas: 350,
     lastDayPlayed: '2018-11-09',
     longestStreak: 1,
@@ -3398,6 +3775,7 @@ export const dataObj: DataObj = {
     uid: 'zhx16l0A9lh8VjNJ1b5H7Dpi9GA2',
   },
   zi0OhdhliafZSylhvLiOz3tpxDL2: {
+    rank:0,
     bananas: 150,
     lastDayPlayed: '2018-10-10',
     longestStreak: 1,
@@ -3407,6 +3785,7 @@ export const dataObj: DataObj = {
     uid: 'zi0OhdhliafZSylhvLiOz3tpxDL2',
   },
   ziCLlrq6ALSubz9MyVtrZkxwXbg1: {
+    rank:0,
     bananas: 1350,
     lastDayPlayed: '2018-05-11',
     longestStreak: 1,
@@ -3416,6 +3795,7 @@ export const dataObj: DataObj = {
     uid: 'ziCLlrq6ALSubz9MyVtrZkxwXbg1',
   },
   ziJwdb1qXgRI518161NcgjNfY0z2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3425,6 +3805,7 @@ export const dataObj: DataObj = {
     uid: 'ziJwdb1qXgRI518161NcgjNfY0z2',
   },
   ziKxPXQKjmYYuPNexN9ch9ZN7ef2: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-10-04',
     longestStreak: 1,
@@ -3434,6 +3815,7 @@ export const dataObj: DataObj = {
     uid: 'ziKxPXQKjmYYuPNexN9ch9ZN7ef2',
   },
   ziRV3praVQT9BH3RuoHWzyEkdTD2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3443,6 +3825,7 @@ export const dataObj: DataObj = {
     uid: 'ziRV3praVQT9BH3RuoHWzyEkdTD2',
   },
   ziUZGpROeXaghHOn8Z0iI0LLnn52: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3452,6 +3835,7 @@ export const dataObj: DataObj = {
     uid: 'ziUZGpROeXaghHOn8Z0iI0LLnn52',
   },
   ziYVZtM5iLaLF8JURdCXHLj3Suq2: {
+    rank:0,
     bananas: 100,
     lastDayPlayed: '2019-02-03',
     longestStreak: 1,
@@ -3461,6 +3845,7 @@ export const dataObj: DataObj = {
     uid: 'ziYVZtM5iLaLF8JURdCXHLj3Suq2',
   },
   zicfLMX5C0OtjMZbgX4jdzXw47f1: {
+    rank:0,
     bananas: 1150,
     lastDayPlayed: '2018-12-07',
     longestStreak: 1,
@@ -3470,6 +3855,7 @@ export const dataObj: DataObj = {
     uid: 'zicfLMX5C0OtjMZbgX4jdzXw47f1',
   },
   ziqiEG4pduRREXuKQ7pgDu7Wr4A3: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3479,6 +3865,7 @@ export const dataObj: DataObj = {
     uid: 'ziqiEG4pduRREXuKQ7pgDu7Wr4A3',
   },
   zjAN0HjNNqZEFjF1u43OKdeubnD2: {
+    rank:0,
     bananas: 150,
     lastDayPlayed: '2019-01-03',
     longestStreak: 1,
@@ -3488,6 +3875,7 @@ export const dataObj: DataObj = {
     uid: 'zjAN0HjNNqZEFjF1u43OKdeubnD2',
   },
   zjJL7cCWlqXso4M8qGfXIe4yYft2: {
+    rank:0,
     bananas: 500,
     lastDayPlayed: '2018-08-27',
     longestStreak: 1,
@@ -3497,6 +3885,7 @@ export const dataObj: DataObj = {
     uid: 'zjJL7cCWlqXso4M8qGfXIe4yYft2',
   },
   zjZLUOKZslZntrQF66vGTTXlr7o2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3506,6 +3895,7 @@ export const dataObj: DataObj = {
     uid: 'zjZLUOKZslZntrQF66vGTTXlr7o2',
   },
   zjd8z8kuigRagSiKcBXNF0JvdYf1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3515,6 +3905,7 @@ export const dataObj: DataObj = {
     uid: 'zjd8z8kuigRagSiKcBXNF0JvdYf1',
   },
   zje4fPFNhaPJCtXHEDltLl5Xpcj2: {
+    rank:0,
     bananas: 2600,
     lastDayPlayed: '2019-01-18',
     longestStreak: 2,
@@ -3524,6 +3915,7 @@ export const dataObj: DataObj = {
     uid: 'zje4fPFNhaPJCtXHEDltLl5Xpcj2',
   },
   zjquqEfwXeauT2dMCedo6XQW75p2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3533,6 +3925,7 @@ export const dataObj: DataObj = {
     uid: 'zjquqEfwXeauT2dMCedo6XQW75p2',
   },
   zjxnn7HsyZWFCy86PRo00UT4zfu1: {
+    rank:0,
     bananas: 1200,
     lastDayPlayed: '2019-01-14',
     longestStreak: 1,
@@ -3542,6 +3935,7 @@ export const dataObj: DataObj = {
     uid: 'zjxnn7HsyZWFCy86PRo00UT4zfu1',
   },
   zjzDEbCknnXATdyJXyp6ahBiZkB3: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-11-20',
     longestStreak: 1,
@@ -3551,6 +3945,7 @@ export const dataObj: DataObj = {
     uid: 'zjzDEbCknnXATdyJXyp6ahBiZkB3',
   },
   zk0M2P1myzZnCHDNw39BM59DpFq2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3560,6 +3955,7 @@ export const dataObj: DataObj = {
     uid: 'zk0M2P1myzZnCHDNw39BM59DpFq2',
   },
   zk40ProwloTXGxOvcCn7DJWHxTk2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3569,6 +3965,7 @@ export const dataObj: DataObj = {
     uid: 'zk40ProwloTXGxOvcCn7DJWHxTk2',
   },
   zk7xiooSrIPrBSXmChsbgGt5HXC2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3578,6 +3975,7 @@ export const dataObj: DataObj = {
     uid: 'zk7xiooSrIPrBSXmChsbgGt5HXC2',
   },
   zkU5knOHImOZiWG1AMIgyEqYqjN2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3587,6 +3985,7 @@ export const dataObj: DataObj = {
     uid: 'zkU5knOHImOZiWG1AMIgyEqYqjN2',
   },
   zkZl5d60Z4a7RYFN51bU80LkbZ63: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3596,6 +3995,7 @@ export const dataObj: DataObj = {
     uid: 'zkZl5d60Z4a7RYFN51bU80LkbZ63',
   },
   zkovxRxhlMQHC3IcteBvm4qXZPn1: {
+    rank:0,
     bananas: 1550,
     lastDayPlayed: '2018-09-14',
     longestStreak: 1,
@@ -3605,6 +4005,7 @@ export const dataObj: DataObj = {
     uid: 'zkovxRxhlMQHC3IcteBvm4qXZPn1',
   },
   zkwzh8XrEMh6CQOoCGMCs2z1J372: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3614,6 +4015,7 @@ export const dataObj: DataObj = {
     uid: 'zkwzh8XrEMh6CQOoCGMCs2z1J372',
   },
   zl2BSyGz5oeBTTTD4hJRyDKGEOD2: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-10-09',
     longestStreak: 1,
@@ -3623,6 +4025,7 @@ export const dataObj: DataObj = {
     uid: 'zl2BSyGz5oeBTTTD4hJRyDKGEOD2',
   },
   zl3hLLmlCqdkk2JJAsZBy8J8Pl13: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3632,6 +4035,7 @@ export const dataObj: DataObj = {
     uid: 'zl3hLLmlCqdkk2JJAsZBy8J8Pl13',
   },
   zlQonVJMyody3h4XjgCm1HsoVL63: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3641,6 +4045,7 @@ export const dataObj: DataObj = {
     uid: 'zlQonVJMyody3h4XjgCm1HsoVL63',
   },
   zlS3xq5m8SMHLGZ9A3Gv8iepbxn1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3650,6 +4055,7 @@ export const dataObj: DataObj = {
     uid: 'zlS3xq5m8SMHLGZ9A3Gv8iepbxn1',
   },
   zlng6RVpGzcafm3jYRlS7C35zYx2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3659,6 +4065,7 @@ export const dataObj: DataObj = {
     uid: 'zlng6RVpGzcafm3jYRlS7C35zYx2',
   },
   zlu1B1NCJSUHYb6dojcKrJ8qRAv2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3668,6 +4075,7 @@ export const dataObj: DataObj = {
     uid: 'zlu1B1NCJSUHYb6dojcKrJ8qRAv2',
   },
   zm9pePeyfmfqMm4nIY8WzpaPrJQ2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3677,6 +4085,7 @@ export const dataObj: DataObj = {
     uid: 'zm9pePeyfmfqMm4nIY8WzpaPrJQ2',
   },
   zmBkTZWmccWbHoPq2yVyNf4VGLE3: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3686,6 +4095,7 @@ export const dataObj: DataObj = {
     uid: 'zmBkTZWmccWbHoPq2yVyNf4VGLE3',
   },
   zmMvBdJ1EZgjOw2IXFzIPZcXiIE3: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3695,6 +4105,7 @@ export const dataObj: DataObj = {
     uid: 'zmMvBdJ1EZgjOw2IXFzIPZcXiIE3',
   },
   zmULVDDBUEfYKwa4zsecyPjCRBn1: {
+    rank:0,
     bananas: 350,
     lastDayPlayed: '2018-10-23',
     longestStreak: 1,
@@ -3704,6 +4115,7 @@ export const dataObj: DataObj = {
     uid: 'zmULVDDBUEfYKwa4zsecyPjCRBn1',
   },
   zmcC10SkIPR9YhDxGLthjWS3yzM2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3713,6 +4125,7 @@ export const dataObj: DataObj = {
     uid: 'zmcC10SkIPR9YhDxGLthjWS3yzM2',
   },
   zmeCux9FgvS92S4bVS6YG8rPdOP2: {
+    rank:0,
     bananas: 350,
     lastDayPlayed: '2018-09-24',
     longestStreak: 1,
@@ -3722,6 +4135,7 @@ export const dataObj: DataObj = {
     uid: 'zmeCux9FgvS92S4bVS6YG8rPdOP2',
   },
   zmg2bCr6goagMs5MoPACa9DF1mx1: {
+    rank:0,
     bananas: 150,
     lastDayPlayed: '2018-07-18',
     longestStreak: 1,
@@ -3731,6 +4145,7 @@ export const dataObj: DataObj = {
     uid: 'zmg2bCr6goagMs5MoPACa9DF1mx1',
   },
   zmjfBe4ET9VoA58OhhfgINFdb1J2: {
+    rank:0,
     bananas: 1900,
     lastDayPlayed: '2019-02-02',
     longestStreak: 2,
@@ -3740,6 +4155,7 @@ export const dataObj: DataObj = {
     uid: 'zmjfBe4ET9VoA58OhhfgINFdb1J2',
   },
   znGidINUdmMCFTJ8qq2k0mlyNhe2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3749,6 +4165,7 @@ export const dataObj: DataObj = {
     uid: 'znGidINUdmMCFTJ8qq2k0mlyNhe2',
   },
   znHBpuZTcVhC5DpMtSAYLGtWo023: {
+    rank:0,
     bananas: 14300,
     lastDayPlayed: '2018-05-15',
     longestStreak: 3,
@@ -3758,6 +4175,7 @@ export const dataObj: DataObj = {
     uid: 'znHBpuZTcVhC5DpMtSAYLGtWo023',
   },
   znN28vsazbRuBtED8bMUTk1pYhk2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3767,6 +4185,7 @@ export const dataObj: DataObj = {
     uid: 'znN28vsazbRuBtED8bMUTk1pYhk2',
   },
   znbr0DbjTBhUmp2zjZTtfdZ1yTZ2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3776,6 +4195,7 @@ export const dataObj: DataObj = {
     uid: 'znbr0DbjTBhUmp2zjZTtfdZ1yTZ2',
   },
   znrWTygtGSS9JG4YqLGkM7dsFeO2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3785,6 +4205,7 @@ export const dataObj: DataObj = {
     uid: 'znrWTygtGSS9JG4YqLGkM7dsFeO2',
   },
   zo817DytcKaRLyhf9W50ZwvTqLI3: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3794,6 +4215,7 @@ export const dataObj: DataObj = {
     uid: 'zo817DytcKaRLyhf9W50ZwvTqLI3',
   },
   zoMFxkCEjuRNLZzxEobKzIdozQ32: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3803,6 +4225,7 @@ export const dataObj: DataObj = {
     uid: 'zoMFxkCEjuRNLZzxEobKzIdozQ32',
   },
   zoWgSNiXriPiHs7NxbpH3qVp2wf1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3812,6 +4235,7 @@ export const dataObj: DataObj = {
     uid: 'zoWgSNiXriPiHs7NxbpH3qVp2wf1',
   },
   zoXxyJIWNdQjX22aJB4ImHzYX4u2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3821,6 +4245,7 @@ export const dataObj: DataObj = {
     uid: 'zoXxyJIWNdQjX22aJB4ImHzYX4u2',
   },
   zon4JUaO72T7mqAcP7GZagDytpW2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3830,6 +4255,7 @@ export const dataObj: DataObj = {
     uid: 'zon4JUaO72T7mqAcP7GZagDytpW2',
   },
   zoo7doG8i2PbnjVnCL7fFbaGwLX2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3839,6 +4265,7 @@ export const dataObj: DataObj = {
     uid: 'zoo7doG8i2PbnjVnCL7fFbaGwLX2',
   },
   zooBXnTUXHeRDEMpYV4ET8FjUzy2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3848,6 +4275,7 @@ export const dataObj: DataObj = {
     uid: 'zooBXnTUXHeRDEMpYV4ET8FjUzy2',
   },
   zossN80tq5afp5NXSdcUovvNwma2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3857,6 +4285,7 @@ export const dataObj: DataObj = {
     uid: 'zossN80tq5afp5NXSdcUovvNwma2',
   },
   zotuTYo21HM8I3SXPKBmuXq1FpR2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3866,6 +4295,7 @@ export const dataObj: DataObj = {
     uid: 'zotuTYo21HM8I3SXPKBmuXq1FpR2',
   },
   zp8pWp168ZYv3XqbGBIAn9PqnlJ3: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3875,6 +4305,7 @@ export const dataObj: DataObj = {
     uid: 'zp8pWp168ZYv3XqbGBIAn9PqnlJ3',
   },
   zpBoeaiiHrWCYkDbYD09jlDCzZl2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3884,6 +4315,7 @@ export const dataObj: DataObj = {
     uid: 'zpBoeaiiHrWCYkDbYD09jlDCzZl2',
   },
   zpGPokVHI0PWglXELkJXCj1FsJI3: {
+    rank:0,
     bananas: 1750,
     lastDayPlayed: '2018-11-02',
     longestStreak: 2,
@@ -3893,6 +4325,7 @@ export const dataObj: DataObj = {
     uid: 'zpGPokVHI0PWglXELkJXCj1FsJI3',
   },
   zpHyPyLVbfNLQLs42VcTTbDao0q2: {
+    rank:0,
     bananas: 750,
     lastDayPlayed: '2018-06-23',
     longestStreak: 1,
@@ -3902,6 +4335,7 @@ export const dataObj: DataObj = {
     uid: 'zpHyPyLVbfNLQLs42VcTTbDao0q2',
   },
   zpJoxpEhNsZar00M5xAURmJNv0a2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3911,6 +4345,7 @@ export const dataObj: DataObj = {
     uid: 'zpJoxpEhNsZar00M5xAURmJNv0a2',
   },
   zpSxoVnPWJfcO1jC5LV0E4hknun2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3920,6 +4355,7 @@ export const dataObj: DataObj = {
     uid: 'zpSxoVnPWJfcO1jC5LV0E4hknun2',
   },
   zpXcQba5XuYnfL7EZ7tj0kTIop13: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3929,6 +4365,7 @@ export const dataObj: DataObj = {
     uid: 'zpXcQba5XuYnfL7EZ7tj0kTIop13',
   },
   zphE5Hyx0BULI7wAxyUcM39NGkh2: {
+    rank:0,
     bananas: 750,
     lastDayPlayed: '2018-12-09',
     longestStreak: 1,
@@ -3938,6 +4375,7 @@ export const dataObj: DataObj = {
     uid: 'zphE5Hyx0BULI7wAxyUcM39NGkh2',
   },
   zpmrsmA8QOTovmvQb1HkOanPjBD2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3947,6 +4385,7 @@ export const dataObj: DataObj = {
     uid: 'zpmrsmA8QOTovmvQb1HkOanPjBD2',
   },
   zq76SXOnbFOAvZpD4ExU01hHbv12: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -3956,6 +4395,7 @@ export const dataObj: DataObj = {
     uid: 'zq76SXOnbFOAvZpD4ExU01hHbv12',
   },
   zqJpqWuTjqeNrP7ICYSf2EJwg9o1: {
+    rank:0,
     bananas: 400,
     lastDayPlayed: '2018-07-21',
     longestStreak: 1,
@@ -3965,6 +4405,7 @@ export const dataObj: DataObj = {
     uid: 'zqJpqWuTjqeNrP7ICYSf2EJwg9o1',
   },
   zqbRQv9U3JVa4w9eisW4C6unycy2: {
+    rank:0,
     bananas: 300,
     lastDayPlayed: '2018-10-23',
     longestStreak: 1,
@@ -3974,6 +4415,7 @@ export const dataObj: DataObj = {
     uid: 'zqbRQv9U3JVa4w9eisW4C6unycy2',
   },
   zqgAtUaWwCU4S0WqQEieyStZgP83: {
+    rank:0,
     bananas: 600,
     lastDayPlayed: '2018-08-20',
     longestStreak: 1,
@@ -3983,6 +4425,7 @@ export const dataObj: DataObj = {
     uid: 'zqgAtUaWwCU4S0WqQEieyStZgP83',
   },
   zqi2f2g8rKaRPn3bbPrDgm7pLCo1: {
+    rank:0,
     bananas: 550,
     lastDayPlayed: '2019-01-30',
     longestStreak: 1,
@@ -3992,6 +4435,7 @@ export const dataObj: DataObj = {
     uid: 'zqi2f2g8rKaRPn3bbPrDgm7pLCo1',
   },
   zqjY0JXMm0QZglpVzOps30TH3mr2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -4001,6 +4445,7 @@ export const dataObj: DataObj = {
     uid: 'zqjY0JXMm0QZglpVzOps30TH3mr2',
   },
   zqlGtSDtRCf1WYD7S6OcWJJZtrI2: {
+    rank:0,
     bananas: 750,
     lastDayPlayed: '2019-01-14',
     longestStreak: 3,
@@ -4010,6 +4455,7 @@ export const dataObj: DataObj = {
     uid: 'zqlGtSDtRCf1WYD7S6OcWJJZtrI2',
   },
   zqr9abaBdqadzw5ADyWpFKUYUU93: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -4019,6 +4465,7 @@ export const dataObj: DataObj = {
     uid: 'zqr9abaBdqadzw5ADyWpFKUYUU93',
   },
   zrE2VTrOg5SZpkaKOx9T3eutLqc2: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-03-31',
     longestStreak: 1,
@@ -4028,6 +4475,7 @@ export const dataObj: DataObj = {
     uid: 'zrE2VTrOg5SZpkaKOx9T3eutLqc2',
   },
   zrPeBbET8jWcbxPOzXiIZ3gFezE3: {
+    rank:0,
     bananas: 3550,
     lastDayPlayed: '2019-01-28',
     longestStreak: 1,
@@ -4037,6 +4485,7 @@ export const dataObj: DataObj = {
     uid: 'zrPeBbET8jWcbxPOzXiIZ3gFezE3',
   },
   zrT6eQjZsNPUzfzjqN2JFOAaxUr2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -4046,6 +4495,7 @@ export const dataObj: DataObj = {
     uid: 'zrT6eQjZsNPUzfzjqN2JFOAaxUr2',
   },
   zrghPITD6tZPSgWQmaxjzPCMdVz2: {
+    rank:0,
     bananas: 2350,
     lastDayPlayed: '2019-02-01',
     longestStreak: 2,
@@ -4055,6 +4505,7 @@ export const dataObj: DataObj = {
     uid: 'zrghPITD6tZPSgWQmaxjzPCMdVz2',
   },
   zriukx06jaWmRiyxHfbMYIpoC963: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -4064,6 +4515,7 @@ export const dataObj: DataObj = {
     uid: 'zriukx06jaWmRiyxHfbMYIpoC963',
   },
   zs01Cho02IYllyoXyaskLHYaksu2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -4073,6 +4525,7 @@ export const dataObj: DataObj = {
     uid: 'zs01Cho02IYllyoXyaskLHYaksu2',
   },
   zsMVKB5bAhelzmGq0Q35nV4vKlQ2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -4082,6 +4535,7 @@ export const dataObj: DataObj = {
     uid: 'zsMVKB5bAhelzmGq0Q35nV4vKlQ2',
   },
   zsRe73zITOWtuyrr41SiYxrr7SY2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -4091,6 +4545,7 @@ export const dataObj: DataObj = {
     uid: 'zsRe73zITOWtuyrr41SiYxrr7SY2',
   },
   zsYo8n58DjOfCNG01ZSqfzBvKL42: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -4100,6 +4555,7 @@ export const dataObj: DataObj = {
     uid: 'zsYo8n58DjOfCNG01ZSqfzBvKL42',
   },
   zszTz04D6ObZyyGsTiA0Gjj23k22: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -4109,6 +4565,7 @@ export const dataObj: DataObj = {
     uid: 'zszTz04D6ObZyyGsTiA0Gjj23k22',
   },
   ztZ5ULy0M2dYQrIq5In51CwreMT2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -4118,6 +4575,7 @@ export const dataObj: DataObj = {
     uid: 'ztZ5ULy0M2dYQrIq5In51CwreMT2',
   },
   ztZKUHJbP6Qom8OkpIYJmgxAneB3: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -4127,6 +4585,7 @@ export const dataObj: DataObj = {
     uid: 'ztZKUHJbP6Qom8OkpIYJmgxAneB3',
   },
   ztnyIglceFe79TtypXUZHZAenHg2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -4136,6 +4595,7 @@ export const dataObj: DataObj = {
     uid: 'ztnyIglceFe79TtypXUZHZAenHg2',
   },
   zttAQVgVvcdJBOnDBlsHbK9VWB33: {
+    rank:0,
     bananas: 900,
     lastDayPlayed: '2018-05-07',
     longestStreak: 1,
@@ -4145,6 +4605,7 @@ export const dataObj: DataObj = {
     uid: 'zttAQVgVvcdJBOnDBlsHbK9VWB33',
   },
   zu11Y3y2kjcc9Xo1XfpDmKp3lWc2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -4154,6 +4615,7 @@ export const dataObj: DataObj = {
     uid: 'zu11Y3y2kjcc9Xo1XfpDmKp3lWc2',
   },
   zu27CAM0lVdQInZ2sjkL0hkPDyJ3: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -4163,6 +4625,7 @@ export const dataObj: DataObj = {
     uid: 'zu27CAM0lVdQInZ2sjkL0hkPDyJ3',
   },
   zuHgvZULlXe6EJABD3aveXq5QSE2: {
+    rank:0,
     bananas: 3150,
     lastDayPlayed: '2018-10-29',
     longestStreak: 3,
@@ -4172,6 +4635,7 @@ export const dataObj: DataObj = {
     uid: 'zuHgvZULlXe6EJABD3aveXq5QSE2',
   },
   zuYGg0IfogWMYnPv1hSVhA5rhCI3: {
+    rank:0,
     bananas: 400,
     lastDayPlayed: '2018-06-24',
     longestStreak: 1,
@@ -4181,6 +4645,7 @@ export const dataObj: DataObj = {
     uid: 'zuYGg0IfogWMYnPv1hSVhA5rhCI3',
   },
   zuifsow2I4T7vUhgi1zNr7AXXwy1: {
+    rank:0,
     bananas: 400,
     lastDayPlayed: '2018-08-09',
     longestStreak: 2,
@@ -4190,6 +4655,7 @@ export const dataObj: DataObj = {
     uid: 'zuifsow2I4T7vUhgi1zNr7AXXwy1',
   },
   zuubU1DDYzVCQvpWGjFErDExKP13: {
+    rank:0,
     bananas: 400,
     lastDayPlayed: '2018-08-28',
     longestStreak: 1,
@@ -4199,6 +4665,7 @@ export const dataObj: DataObj = {
     uid: 'zuubU1DDYzVCQvpWGjFErDExKP13',
   },
   zv708TiAHEPeSqA7W4PTlFDlfKq1: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -4208,6 +4675,7 @@ export const dataObj: DataObj = {
     uid: 'zv708TiAHEPeSqA7W4PTlFDlfKq1',
   },
   zvgKhoJMW6NwTRSUK3ie3yaiH9C2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -4217,6 +4685,7 @@ export const dataObj: DataObj = {
     uid: 'zvgKhoJMW6NwTRSUK3ie3yaiH9C2',
   },
   zwMh4FTYvEbOHVDTjCqnh4KRX1T2: {
+    rank:0,
     bananas: 350,
     lastDayPlayed: '2018-11-12',
     longestStreak: 1,
@@ -4226,6 +4695,7 @@ export const dataObj: DataObj = {
     uid: 'zwMh4FTYvEbOHVDTjCqnh4KRX1T2',
   },
   zxIstmzEt4ZKs3ggR5BzRl7RSB43: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-06-29',
     longestStreak: 1,
@@ -4235,6 +4705,7 @@ export const dataObj: DataObj = {
     uid: 'zxIstmzEt4ZKs3ggR5BzRl7RSB43',
   },
   zxNTlWI9TrWuHZiHvmFugGjPfZH3: {
+    rank:0,
     bananas: 350,
     lastDayPlayed: '2018-11-01',
     longestStreak: 1,
@@ -4244,6 +4715,7 @@ export const dataObj: DataObj = {
     uid: 'zxNTlWI9TrWuHZiHvmFugGjPfZH3',
   },
   zxNqVrLoJJOif2oHv2RUpw9nSdq1: {
+    rank:0,
     bananas: 1050,
     lastDayPlayed: '2018-06-30',
     longestStreak: 1,
@@ -4253,6 +4725,7 @@ export const dataObj: DataObj = {
     uid: 'zxNqVrLoJJOif2oHv2RUpw9nSdq1',
   },
   zxYQWVjG0lVofYMq7E6YHv2rOOx1: {
+    rank:0,
     bananas: 6050,
     lastDayPlayed: '2019-02-10',
     longestStreak: 2,
@@ -4262,6 +4735,7 @@ export const dataObj: DataObj = {
     uid: 'zxYQWVjG0lVofYMq7E6YHv2rOOx1',
   },
   zxbkdkfuUKVbmQJlQfrX1K0XupD3: {
+    rank:0,
     bananas: 500,
     lastDayPlayed: '2018-10-15',
     longestStreak: 1,
@@ -4271,6 +4745,7 @@ export const dataObj: DataObj = {
     uid: 'zxbkdkfuUKVbmQJlQfrX1K0XupD3',
   },
   zxgmxNuBpXVTqey26SiYBfB6K7v1: {
+    rank:0,
     bananas: 350,
     lastDayPlayed: '2019-01-15',
     longestStreak: 1,
@@ -4280,6 +4755,7 @@ export const dataObj: DataObj = {
     uid: 'zxgmxNuBpXVTqey26SiYBfB6K7v1',
   },
   zxof7OzVwmNTBX960gsiIhAWsBA3: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -4289,6 +4765,7 @@ export const dataObj: DataObj = {
     uid: 'zxof7OzVwmNTBX960gsiIhAWsBA3',
   },
   zxtxBkJPtXaNnfithxer7rczOS72: {
+    rank:0,
     bananas: 2450,
     lastDayPlayed: '2018-12-31',
     longestStreak: 1,
@@ -4298,6 +4775,7 @@ export const dataObj: DataObj = {
     uid: 'zxtxBkJPtXaNnfithxer7rczOS72',
   },
   zy1c35c5QOeq5ibFExqdBxu1Z8x2: {
+    rank:0,
     bananas: 2700,
     lastDayPlayed: '2018-12-16',
     longestStreak: 3,
@@ -4307,6 +4785,7 @@ export const dataObj: DataObj = {
     uid: 'zy1c35c5QOeq5ibFExqdBxu1Z8x2',
   },
   zy3K9D3dZnR7H0Vzq2GD2ZbD2PV2: {
+    rank:0,
     bananas: 2050,
     lastDayPlayed: '2019-02-10',
     longestStreak: 2,
@@ -4316,6 +4795,7 @@ export const dataObj: DataObj = {
     uid: 'zy3K9D3dZnR7H0Vzq2GD2ZbD2PV2',
   },
   zy5Fy0QKFgS7sPwMsrqbjKudqe52: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -4325,6 +4805,7 @@ export const dataObj: DataObj = {
     uid: 'zy5Fy0QKFgS7sPwMsrqbjKudqe52',
   },
   zyLlXcrvtIVIbUXDpJJcgPKgyI92: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -4334,6 +4815,7 @@ export const dataObj: DataObj = {
     uid: 'zyLlXcrvtIVIbUXDpJJcgPKgyI92',
   },
   zyQas9lZgBePwCA1fAowPMGlxU72: {
+    rank:0,
     bananas: 1700,
     lastDayPlayed: '2019-01-22',
     longestStreak: 1,
@@ -4343,6 +4825,7 @@ export const dataObj: DataObj = {
     uid: 'zyQas9lZgBePwCA1fAowPMGlxU72',
   },
   zyQsd5Jv5LUgeVNqJjPIHsRpV1c2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -4352,6 +4835,7 @@ export const dataObj: DataObj = {
     uid: 'zyQsd5Jv5LUgeVNqJjPIHsRpV1c2',
   },
   zycLGDOMWLZLyjGrc98TdumJHl32: {
+    rank:0,
     bananas: 4600,
     lastDayPlayed: '2018-04-18',
     longestStreak: 4,
@@ -4361,6 +4845,7 @@ export const dataObj: DataObj = {
     uid: 'zycLGDOMWLZLyjGrc98TdumJHl32',
   },
   zymjIEV0I8QrReMnh12JGR8pGqJ2: {
+    rank:0,
     bananas: 0,
     lastDayPlayed: '2017-11-01',
     longestStreak: 0,
@@ -4370,6 +4855,7 @@ export const dataObj: DataObj = {
     uid: 'zymjIEV0I8QrReMnh12JGR8pGqJ2',
   },
   zyqWz9Obwsfk9TIkDAoNshMGPtc2: {
+    rank:0,
     bananas: 17200,
     lastDayPlayed: '2018-12-14',
     longestStreak: 4,
@@ -4379,6 +4865,7 @@ export const dataObj: DataObj = {
     uid: 'zyqWz9Obwsfk9TIkDAoNshMGPtc2',
   },
   zysMpJUIpYepb1n3wELJajboTFE2: {
+    rank:0,
     bananas: 400,
     lastDayPlayed: '2018-08-20',
     longestStreak: 1,
@@ -4388,6 +4875,7 @@ export const dataObj: DataObj = {
     uid: 'zysMpJUIpYepb1n3wELJajboTFE2',
   },
   zywwDpX4ovUw52Kt2vOP6tFbpzG3: {
+    rank:0,
     bananas: 3150,
     lastDayPlayed: '2018-10-22',
     longestStreak: 2,
@@ -4397,6 +4885,7 @@ export const dataObj: DataObj = {
     uid: 'zywwDpX4ovUw52Kt2vOP6tFbpzG3',
   },
   zz3PO3lfXzQAx12HilVxkPrgcP63: {
+    rank:0,
     bananas: 3200,
     lastDayPlayed: '2018-10-27',
     longestStreak: 1,
@@ -4406,6 +4895,7 @@ export const dataObj: DataObj = {
     uid: 'zz3PO3lfXzQAx12HilVxkPrgcP63',
   },
   zzEUwf7BeTXL628IuQdfCw4zdAk2: {
+    rank:0,
     bananas: 150,
     lastDayPlayed: '2018-10-27',
     longestStreak: 1,
@@ -4415,6 +4905,7 @@ export const dataObj: DataObj = {
     uid: 'zzEUwf7BeTXL628IuQdfCw4zdAk2',
   },
   zzqGU2sWryUPwRfqUphPprnK1gs2: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-04-26',
     longestStreak: 1,
@@ -4424,6 +4915,7 @@ export const dataObj: DataObj = {
     uid: 'zzqGU2sWryUPwRfqUphPprnK1gs2',
   },
   zzupAnHefmYqyPM9Sx74j88aeZB2: {
+    rank:0,
     bananas: 200,
     lastDayPlayed: '2018-07-04',
     longestStreak: 1,
@@ -4433,6 +4925,7 @@ export const dataObj: DataObj = {
     uid: 'zzupAnHefmYqyPM9Sx74j88aeZB2',
   },
   zzvyAcTpYdUsL5S2SgwayV1ugOE2: {
+    rank:0,
     bananas: 400,
     lastDayPlayed: '2018-10-28',
     longestStreak: 1,

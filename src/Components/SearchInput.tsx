@@ -20,20 +20,17 @@ const SearchInput = () => {
     }, [search])
 
     return (
-        <HStack space="md" mt={10} mb={10} >
+        <HStack space="md" my={'$3'}>
             <Input
+                flex={3}
                 variant="outline"
                 size="md"
-                borderRadius={10}
-                isDisabled={false}
-                isInvalid={false}
-                isReadOnly={false}
-                w={'$72'}>
+                borderRadius={10}>
                 <InputField placeholder="Enter username" value={username}
                     onChangeText={setUsername} />
             </Input>
             <Pressable
-                width={'$16'}
+                flex={1}
                 justifyContent='center'
                 borderColor="$primary500"
                 alignItems='center'

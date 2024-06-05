@@ -8,18 +8,16 @@ import { ErrorMessages } from '../Constants';
 
 const Leaderboard = () => {
     const dispatch = useDispatch();
-    const users = useSelector((state: RootState) => state.users);
-    const search = useSelector((state: RootState) => state.search);
-    const sortBy = useSelector((state: RootState) => state.sortBy);
-    const showLowest = useSelector((state: RootState) => state.showLowest);
-
+    const { users, search, sortBy, showLowest } = useSelector((state: RootState) => state);
     const [displayedUsers, setDisplayedUsers] = useState(Object.values(users));
     const [sortDirection, setSortDirection] = useState({ name: 'asc', bananas: 'desc', rank: 'asc' });
 
     useEffect(() => {
         sortAndFilterUsers();
-    }, [users, sortBy, showLowest, search, sortDirection]);
-
+    }, [ sortBy, showLowest, search, sortDirection]);
+    useEffect(() => {
+        setDisplayedUsers(Object.values(users)); // Load full data initially
+    }, [users]);
     const sortAndFilterUsers = () => {
         let sortedUsers = Object.values(users).sort((a, b) => {
             if (sortBy === 'name') {
@@ -59,35 +57,41 @@ const Leaderboard = () => {
         dispatch(setSortBy('rank'));
         setSortDirection({ ...sortDirection, rank: sortDirection.rank === 'asc' ? 'desc' : 'asc' });
     };
+    console.warn(displayedUsers.length);
 
     const renderItem = ({ item, index }: { item: any; index: number }) => (
-        <Box bg={item.name === search ? '#ffeb3b' : '#f8f8f8'} flexDirection="row" borderBottomWidth={1} borderBottomColor="#ddd" paddingVertical={14} alignItems="center">
-            <Text w={"$16"} fontSize={16} fontWeight="bold" color="#4a90e2" textAlign="center">
-                {index + 1}.
+        <Box borderWidth={1} bg={item.name === search ? '#ffeb3b' : '#f8f8f8'}
+            flexDirection="row"
+            borderColor="#ddd"
+            padding={14}
+            alignItems="center"
+            justifyContent="center">
+            <Text w={"$20"} fontSize={16} fontWeight="bold" color="#4a90e2" textAlign="left">
+                {item.rank}.
             </Text>
-            <Text w={"$48"} flex={1} fontSize={16} color="#333" textAlign="center">
+            <Text w={"$56"} flex={1} fontSize={16} color="#333" textAlign="left">
                 {item.name}
             </Text>
-            <Text w={'$32'} flex={1} fontSize={16} color="#333" textAlign="center">
+            <Text w={"$24"} fontSize={16} color="#333" textAlign="left">
                 {item.bananas} bananas
             </Text>
         </Box>
     );
 
     const renderHeader = () => (
-        <Box justifyContent='center' bg="#4a90e2" paddingVertical={14} >
-            <HStack justifyContent="center" w={"$96"}>
-                <HStack w={"$12"} justifyContent="center" alignItems="center">
+        <Box justifyContent='center' bg="#4a90e2" padding={14} >
+            <HStack justifyContent="center" flex={1}>
+                <HStack w={"$16"} justifyContent="center" alignItems="center">
                     <Text fontWeight="bold" fontSize={16} color="$white">Rank</Text>
-                    <Box ml={1}>
+                    <Box>
                         <Button size="xs" onPress={handleSortByRank} bgColor='transparent'>
                             <ButtonText color="$white">⇅</ButtonText>
                         </Button>
                     </Box>
                 </HStack>
-                <HStack w={"$40"} justifyContent="center" alignItems="center">
+                <HStack w={"$56"} justifyContent="center" flex={1} alignItems="center">
                     <Text fontWeight="bold" fontSize={16} color="$white">User</Text>
-                    <Box ml={1}>
+                    <Box>
                         <Button size="xs" onPress={handleSortByName} bgColor='transparent'>
                             <ButtonText color="$white">⇅</ButtonText>
                         </Button>
@@ -95,7 +99,7 @@ const Leaderboard = () => {
                 </HStack>
                 <HStack w={'$24'} justifyContent="center" alignItems="center">
                     <Text fontWeight="bold" fontSize={16} color="$white">Bananas</Text>
-                    <Box ml={1}>
+                    <Box>
                         <Button size="xs" onPress={handleSortByBananas} bgColor='transparent'>
                             <ButtonText color="$white">⇅</ButtonText>
                         </Button>
@@ -106,7 +110,7 @@ const Leaderboard = () => {
     );
 
     return (
-        <Box mt={5} mx={5} borderWidth={1} borderColor="#ccc" borderRadius={10} overflow="hidden" bg="#f8f8f8">
+        <Box my={'$2'} borderColor="#ccc" borderRadius={10} overflow="hidden" bg="#f8f8f8">
             <FlatList
                 data={displayedUsers}
                 renderItem={renderItem}

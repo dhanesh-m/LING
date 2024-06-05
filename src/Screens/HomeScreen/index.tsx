@@ -1,24 +1,30 @@
 import React, { useEffect } from 'react';
-import { StyleSheet, View } from "react-native";
+import { VStack } from '@gluestack-ui/themed';
+
 import Leaderboard from "../../Components/Leaderboard";
 import SearchInput from "../../Components/SearchInput";
 import { useDispatch } from "react-redux";
 import { setUsers } from "../../Store/actions";
-import { dataObj } from '../../Assets/Data';
-import { Box } from '@gluestack-ui/themed';
+import { userData } from '../../Assets/Data';
 
 const HomeScreen = () => {
     const dispatch = useDispatch();
 
     useEffect(() => {
-        dispatch(setUsers(dataObj));
+        let rankList= Object.values(userData).sort((a, b) => a.name.localeCompare(b.name))
+        rankList= rankList.sort((a, b) => b.bananas - a.bananas)
+        rankList = rankList.map((element, index) => {
+            element.rank = index + 1;
+            return element
+        });
+        dispatch(setUsers(rankList));
     }, [dispatch]);
 
     return (
-        <Box padding={15}>
+        <VStack p={'$5'}>
             <SearchInput />
             <Leaderboard />
-        </Box>
+        </VStack>
     );
 };
 
