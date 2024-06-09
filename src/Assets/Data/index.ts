@@ -1,19 +1,6 @@
-interface UserData {
-  rank: number;
-  bananas: number;
-  lastDayPlayed: string;
-  longestStreak: number;
-  name: string;
-  stars: number;
-  subscribed: boolean;
-  uid: string;
-}
+import { IUserList } from "../../Types";
 
-type DataObj = {
-  [key: string]: UserData;
-};
-
-export const userData: DataObj = {
+export const userData: IUserList = {
   '00D1LA8puAa1GINkVpfgC1TmO0m1': {
     rank:0,
     bananas: 200,

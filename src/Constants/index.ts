@@ -1,3 +1,4 @@
 export const ErrorMessages = {
-    userNotExist: 'This user name does not exist! Please specify an existing user name!'
+    userNoExistTitle: 'Searched user does not exist!',
+    userNotExistMessage: 'Please specify an existing user name.'
 }
